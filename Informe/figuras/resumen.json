@@ -1,0 +1,55 @@
+{
+ "usb": {
+  "n": 114947,
+  "media": 4.288579084273621,
+  "mediana": 2.9,
+  "p95": 5.7,
+  "p99": 32.1,
+  "max": 877.1,
+  "de": 16.04267487176272
+ },
+ "bt": {
+  "n": 11530,
+  "media": 53.63786643538595,
+  "mediana": 46.1,
+  "p95": 137.0,
+  "p99": 193.1,
+  "max": 928.9,
+  "de": 43.544886519797664
+ },
+ "usb_sesiones": 11,
+ "bt_sesiones": 3,
+ "usb_files": [
+  "telemetria_20261001_193818.csv",
+  "telemetria_20261001_194152.csv",
+  "telemetria_20261001_201419.csv",
+  "telemetria_20261001_203331.csv",
+  "telemetria_20261001_204105.csv",
+  "telemetria_20261002_055200.csv",
+  "telemetria_20261002_060155.csv",
+  "telemetria_20261002_092049.csv",
+  "telemetria_20261002_092205.csv",
+  "telemetria_20261002_100053.csv",
+  "telemetria_20261002_101342.csv"
+ ],
+ "bt_files": [
+  "telemetria_20261002_102855.csv",
+  "telemetria_20261002_104328.csv",
+  "telemetria_20261002_110825.csv"
+ ],
+ "escalon": {
+  "sesion": "telemetria_20261001_201419.csv",
+  "tau_s": 0.2050000000000125,
+  "v_final": 3.0
+ },
+ "trazas_sesion": "telemetria_20261002_104328.csv",
+ "trazas_duracion_s": 355.738,
+ "colisiones": {
+  "ObjetoManipulable": 37,
+  "Obstaculo": 89,
+  "ParedLimite": 71
+ },
+ "agarres": 16,
+ "max_entregados": 3,
+ "sesiones_tarea": 12
+}

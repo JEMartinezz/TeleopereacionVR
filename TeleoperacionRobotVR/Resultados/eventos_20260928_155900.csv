@@ -1,0 +1,5 @@
+﻿t_s,evento,detalle,latencia_ms
+41.383,inicio_tarea,,-1.0
+59.060,colision_ObjetoManipulable,Cubo_Rojo,-1.0
+60.335,agarre,Cubo_Rojo,-1.0
+0.000,fin_sesion,,-1.0

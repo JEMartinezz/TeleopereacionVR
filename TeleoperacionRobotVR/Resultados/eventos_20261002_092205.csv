@@ -1,0 +1,14 @@
+﻿t_s,evento,detalle,latencia_ms
+0.020,inicio_tarea,,2.6
+9.120,colision_Obstaculo,Columna_2,2.3
+16.760,colision_Obstaculo,Caja_1,1.6
+21.480,colision_ObjetoManipulable,Cubo_Rojo,2.4
+22.320,colision_Obstaculo,Caja_2,3.1
+22.960,colision_ObjetoManipulable,Cubo_Rojo,3.1
+25.540,colision_ObjetoManipulable,Cubo_Rojo,2.9
+26.120,colision_Obstaculo,Caja_2,2.9
+32.260,colision_Obstaculo,Columna_3,2.1
+33.260,colision_ParedLimite,Pared_Oeste,2.4
+38.240,colision_ParedLimite,Pared_Oeste,1.7
+39.640,colision_Obstaculo,Columna_3,3.5
+0.000,fin_sesion,,2.0

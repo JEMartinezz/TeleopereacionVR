@@ -1,0 +1,16 @@
+﻿t_s,evento,detalle,latencia_ms
+75.762,inicio_tarea,,-1.0
+81.860,colision_ObjetoManipulable,Cubo_Rojo,-1.0
+81.889,agarre,Cubo_Rojo,-1.0
+84.049,soltar,Cubo_Rojo,-1.0
+84.060,colision_ObjetoManipulable,Cubo_Rojo,-1.0
+84.540,colision_ObjetoManipulable,Cubo_Rojo,-1.0
+86.720,colision_ObjetoManipulable,Cubo_Rojo,-1.0
+87.434,agarre,Cubo_Rojo,-1.0
+90.767,soltar,Cubo_Rojo,-1.0
+91.860,colision_ObjetoManipulable,Cubo_Rojo,-1.0
+92.856,agarre,Cubo_Rojo,-1.0
+107.494,soltar,Cubo_Rojo,-1.0
+107.501,entregados,1,-1.0
+107.580,colision_ObjetoManipulable,Cubo_Rojo,-1.0
+0.000,fin_sesion,,-1.0

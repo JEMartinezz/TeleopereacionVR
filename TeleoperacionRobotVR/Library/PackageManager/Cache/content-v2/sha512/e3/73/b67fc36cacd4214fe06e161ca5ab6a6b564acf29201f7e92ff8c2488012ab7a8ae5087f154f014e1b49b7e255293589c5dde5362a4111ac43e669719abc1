@@ -1,0 +1,1 @@
+{"status":"Valid","reason":"Signature is ok","isLegacy":false,"attestation":{"version":1,"format":"archive","integrity":"sha256-46EfM/6NHs+ZatWGzXGuDwZF86roZFwwnPp/wgQgtbM=","packageName":"com.unity.xr.openxr","packageVersion":"1.18.0","publishingChannel":"unity","entitlementKeys":[],"artifactType":"upmPackage"}}

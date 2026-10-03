@@ -1,0 +1,9 @@
+﻿t_s,evento,detalle,latencia_ms
+0.020,inicio_tarea,,2.7
+13.540,colision_Obstaculo,DomoPrincipal,1.9
+21.920,colision_ParedLimite,Limite_Oeste,2.1
+31.280,colision_Obstaculo,Roca_1,1.6
+45.379,agarre,Cristal_Cian,3.4
+51.912,soltar,Cristal_Cian,1.9
+51.960,colision_ObjetoManipulable,Cristal_Cian,1.9
+0.000,fin_sesion,,43.9

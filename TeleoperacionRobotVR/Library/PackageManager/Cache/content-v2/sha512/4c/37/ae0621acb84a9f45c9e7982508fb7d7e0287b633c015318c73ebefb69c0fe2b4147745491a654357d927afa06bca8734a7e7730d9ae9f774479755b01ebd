@@ -1,0 +1,1 @@
+{"status":"Valid","reason":"Signature is ok","isLegacy":false,"attestation":{"version":1,"format":"archive","integrity":"sha256-3JZFR06y/MDw2xzAOxJ7cL8BeW3owwhW4FkxcCANNNE=","packageName":"com.unity.xr.management","packageVersion":"4.7.0","publishingChannel":"unity","entitlementKeys":[],"artifactType":"upmPackage"}}

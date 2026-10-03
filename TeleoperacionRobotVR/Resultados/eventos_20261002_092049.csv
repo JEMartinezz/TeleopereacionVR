@@ -1,0 +1,6 @@
+﻿t_s,evento,detalle,latencia_ms
+7.662,inicio_tarea,,3.1
+11.660,colision_Obstaculo,Caja_2,3.3
+54.680,colision_ParedLimite,Pared_Sur,1.7
+61.260,colision_Obstaculo,Caja_2,2.8
+0.000,fin_sesion,,2.6

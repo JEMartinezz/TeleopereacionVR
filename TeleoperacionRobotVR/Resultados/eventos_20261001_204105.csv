@@ -1,0 +1,14 @@
+﻿t_s,evento,detalle,latencia_ms
+35.562,inicio_tarea,,3.4
+38.740,colision_Obstaculo,Caja_2,2.4
+66.340,colision_Obstaculo,Caja_2,2.9
+73.620,colision_Obstaculo,Caja_1,3.1
+81.120,colision_ObjetoManipulable,Esfera_Amarilla,3.6
+82.701,agarre,Esfera_Amarilla,2.1
+82.744,soltar,Esfera_Amarilla,2.1
+87.362,agarre,Cubo_Rojo,2.9
+96.060,colision_ParedLimite,Pared_Este,2.9
+98.180,colision_ParedLimite,Pared_Este,2.0
+106.080,colision_Obstaculo,Caja_2,2.4
+112.700,colision_ParedLimite,Pared_Este,2.5
+0.000,fin_sesion,,1.9

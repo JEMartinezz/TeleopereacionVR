@@ -1,0 +1,1820 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 14060)
+VBCSCompiler prewarm took 6.04 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.2f1 (770e33f6875c) revision 7802419'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alber" at "2026-10-02T15:00:15.1344287Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'es' Physical Memory: 16091 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-02T15:00:15Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 25016, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              0c4d8050220b44138f0277627c706337
+  Correlation Id:          9330335f4c121099b58a783519a6ef0f
+  External correlation Id: 431540254908699666
+  Machine Id:              xPVmXNANFC6HwX10Vks4IgXgcDQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-alber" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alber-notifications" at "2026-10-02T15:00:15.180744Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674257262021-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Unity.exe
+-projectPath
+C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR
+Successfully changed project path to: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR
+C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [11964]  Target information:
+
+Player connection [11964]  * "[IP] 10.16.176.172 [Port] 55504 [Flags] 2 [Guid] 3297955505 [EditorId] 3297955505 [Version] 1048832 [Id] WindowsEditor(7,Daniel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11964] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11964] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-20316" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.2f1 (770e33f6875c)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR/Assets
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+[D3D12 Device Filter] Driver Version: 32.0.15.8186
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 6002 MB
+[D3D12 Device Filter] Processor Count: 16
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeSplitJobs
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:          NVIDIA
+    VRAM:            6002 MB
+    App VRAM Budget: 5234 MB
+    Driver:          32.0.15.8186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.004584 seconds.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.710 seconds
+Domain Reload Profiling: 1229ms
+	BeginReloadAssembly (128ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (111ms)
+		TypeCache.Refresh (204ms)
+			TypeCache.ScanAssembly (191ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (712ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (241ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 48 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.postprocessing@3.5.4 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.postprocessing@141166b789e3)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.xr.management@4.7.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.xr.management@2ad85c7dd480)
+    com.unity.xr.openxr@1.18.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.xr.core-utils@2.6.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.xr.core-utils@a8b900321199)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+  Built-in packages:
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.test-framework@1.8.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+[Subsystems] Looking for new subsystems at path C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR/Assets
+[Subsystems] Discovering subsystems at path C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json.
+[Package Manager] Done registering packages in 0.02 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR
+ExitCode: 4 Duration: 0s157ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[440/540    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (0.13 seconds), 1 items updated, 439 evaluatedStarting: C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR
+
+ExitCode: 0 Duration: 0s481ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR
+ExitCode: 0 Duration: 0s501ms
+Finished compiling graph: 543 nodes, 8283 flattened edges (7373 ToBuild, 70 ToUse), maximum node priority 377
+[440/540    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.48 seconds), 1 items updated, 540 evaluated
+AssetDatabase: script compilation time: 1.547537s
+Begin MonoManager ReloadAssembly
+Total cache size 49402540
+Total cache size after purge 49402540, took 00:00:00.1064492
+Refreshing native plugins compatible for Editor in 3.04 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.604 seconds
+Domain Reload Profiling: 1189ms
+	BeginReloadAssembly (226ms)
+		DisableScriptedObjects (27ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (215ms)
+		TypeCache.Refresh (41ms)
+			TypeCache.ScanAssembly (34ms)
+		AnalyzeDomain (18ms)
+			BuildScriptInfoCaches (16ms)
+	FinalizeReload (605ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Starting new worker id: 0 with log in C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=62eac3add172b474d94875aeaca9ad96): Total: 3.066 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=811 ms
+		Asset DB Callback time: managed=26 ms, native=25 ms
+		Scripting: domain reloads=1, domain reload time=623 ms, compile time=1549 ms, other=28 ms
+		Project Asset Count: scripts=489, non-scripts=489
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 26.867ms
+	ApplyChangesToAssetFolders: 0.636ms
+	Scan: 50.852ms
+	Collect global state as custom dependencies: 8.092ms
+	CategorizeScriptCompilationAssets: 10.424ms
+	ProcessAssetsWithTransientArtifactChanges: 14.541ms
+	CategorizeAssets: 7.476ms
+	CompileScripts: 1549.208ms
+	ImportOutOfDateAssets: 629.426ms (613.966ms without children)
+		UnloadImportedAssets: 0.108ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.130ms
+		ImportSchedulerStart: 15.218ms
+	PostProcessAllAssets: 26.676ms
+		MonoPostProcessAllAssets: 26.614ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 9.880ms
+			SyncVS.PostprocessSyncProject 3.248ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.278ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.761ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.260ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.247ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.195ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.162ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.161ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.078ms
+	UnloadStreamsBegin: 1.587ms
+	GenerateScriptTypeHashes: 0.979ms
+	GenerateScriptTypeSerializationHashes: 2.068ms
+	Untracked: 711.481ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 1.839ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Teleoperacion Robot VR
+Unloading 92 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Teleoperacion.unity'
+	Deserialize:            29.083 ms
+	Integration:            85.884 ms
+	Integration of assets:  0.771 ms
+	Thread Wait Time:       0.035 ms
+	Total Operation Time:   115.773 ms
+Unloading 1634 unused Assets / (0.9 MB). Loaded Objects now: 4117.
+Memory consumption went from 281.3 MB to 280.4 MB.
+Total: 5.511100 ms (FindLiveObjects: 0.519700 ms CreateObjectMapping: 0.091500 ms MarkObjects: 4.338700 ms  DeleteObjects: 0.404800 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/alber/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+This project uses Input Manager, which is marked for deprecation. To manage input in your project, use the <a href="https://docs.unity3d.com/Packages/com.unity.inputsystem@latest">Input System package</a> instead.
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+[Project] Loading completed in 7.789 seconds
+	Project init time: 				6.282 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.213 seconds
+		Asset Database init time: 		0.439 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			1.272 seconds
+		Unity extensions init time: 	0.006 seconds
+		Asset Database refresh time: 	3.066 seconds
+	Scene opening time: 			1.281 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790953222904,"processId":20316,"projectLoad":7.789369199999999,"projectInit":6.2816237,"templateInit":0.0,"packageManagerInit":0.2134174,"assetDatabaseInit":0.4385118,"globalIlluminationInit":0.0020492,"assembliesLoad":1.2717027,"unityExtensionsInit":0.006413,"assetDatabaseRefresh":3.0658568,"sceneOpening":1.2814426}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790953222904,"processId":20316,"editorVersion":"6000.6.2f1 (770e33f6875c)","branch":"6000.6/staging","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/alber/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.023s, timestamps: [8.064 - 8.087]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "TnTWmdkU"... (expires: 2026-10-02T16:15:21Z)
+[Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 1 with log in C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: f79c8927d684af6499f512361e23bace - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/ColorGradingEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e4c290e353b22e21a455dacb137fc6f4') in 0.0862483 seconds
+Starting new worker id: 2 with log in C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR/Logs/AssetImportWorkerHW2.log
+[Worker0] Imported GUID: 34845e0ca016b7448842e965db5890a5 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'eaae95990548d1837d2a1cc115021ad5') in 0.0078406 seconds
+[Worker0] Imported GUID: e1efca7c36fd01840aae0dd10378de5c - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '21a6896d2718e1aef735c5bb622aab00') in 0.0030668 seconds
+[Worker0] Imported GUID: ac5668592895c1742a0c6e9d111f870b - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/ProfileFactory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b6928c9f03fff5616023338c3a1f52d3') in 0.0028198 seconds
+[Worker0] Imported GUID: e8ce9961912f3214586fe8709b9012c1 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b56e94167049d5944da46b0b0ad81846') in 0.0101676 seconds
+[Worker0] Imported GUID: 19d205ceab90d42038ad1d376affc356 - Path: Packages/com.unity.postprocessing/LICENSE.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ad2e73d920ee7698ea9a53975da7bbaa') in 0.0022907 seconds
+Asset Pipeline Refresh (id=d5e8b0a34748cac488a155d8beacaa2b): Total: 0.006 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW1 1
+Worker ready: AssetImportWorkerHW2 2
+Starting new worker id: 3 with log in C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR/Logs/AssetImportWorkerHW3.log
+[Worker0] Imported GUID: 7a34fa72bd4185749832024e9c8010bf - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/ScreenSpaceReflections.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c0be7906dcf2577dca074ddea46d5872') in 0.0022879 seconds
+[Worker0] Imported GUID: 1378a33cdd085d64c9da863d2484ff21 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_47.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4476580b497263b23e2754b584a52dd2') in 0.0062688 seconds
+[Worker0] Imported GUID: 85a45a6d8b2ffb84987d2b028ecfb220 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_58.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'efe42b31ef7d3ed6711ef502f4618740') in 0.0091552 seconds
+[Worker0] Imported GUID: 15e54aa23a938444389469d53765d741 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_44.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6777e338678529475d6ce868679a79f9') in 0.005496 seconds
+[Worker0] Imported GUID: 8ecbbcae4cc747a4abbc4adce795d25e - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_46.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2bd5f1254d3d0950f7fc739f7bf616b3') in 0.00775 seconds
+[Worker0] Imported GUID: 20aeae489f6be6a48aec52447f49169c - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/StdLib.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a07c49afdd6a5e08d2934d8341e1c345') in 0.0030208 seconds
+[Worker0] Imported GUID: 0d256a256b5667448bb3f33f75dbb4bf - Path: Packages/com.unity.postprocessing/PostProcessing - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f7e26253c662598d3781e6f35e5a3efa') in 0.0030488 seconds
+[Worker0] Imported GUID: 319b8e66db3faa4438cf6982e9c89b2f - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_34.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4e2e561a3ed84cd9136f8e744ea78ab8') in 0.0068994 seconds
+[Worker0] Imported GUID: 660a3ee04f28e0a4a97dc5831c5a1de3 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f5c468f0352774f72870e55faca12edf') in 0.0023887 seconds
+[Worker0] Imported GUID: a1ae041906217ae44a774d4ca139af50 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_5.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8625956f74a3c5a031382104254e1eb0') in 0.0082128 seconds
+[Worker0] Imported GUID: 980acadb960f8424c94307ec0e585b4e - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_12.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a0b33236ddb95cfddf23f1f0dd1e07b7') in 0.0044374 seconds
+[Worker0] Imported GUID: cce62646e6d421c41b0aa1c300fcd0fe - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Monitors/HistogramMonitor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1b927649ed8f64b0bfc07b6fb9d1bba0') in 0.0017451 seconds
+[Worker1] Imported GUID: 21a375b704549664589881dfc892e7e7 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Decorators - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '88507c3732d78b7f1098d5a42ccd906b') in 0.068416 seconds
+[Worker0] Imported GUID: d916afaf5049bb24989e8e823280e99c - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/PSP2.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '58acac7bae5b8817d0fc203af5d23553') in 0.0028523 seconds
+[Worker0] Imported GUID: 882f12b796afd644694351ea7b9e9c00 - Path: Packages/com.unity.postprocessing/Tests - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1bb01cd3b83c40c400fa12ea913cb555') in 0.0024651 seconds
+[Worker0] Imported GUID: 0667d6b8b8bbc4241a55ac71faa5de15 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/Cubes/sRGB_to_Unity_Log_r1.cube - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e7a642c4fe8e14e17d29134cb2436f16') in 0.0018701 seconds
+[Worker0] Imported GUID: 018e19d6c1b36224b85b5c0ddd6a895e - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a918c280ac61c45badfcfae378c292bd') in 0.0025114 seconds
+[Worker0] Imported GUID: 180a4519fc4556c4fb5d941544b86398 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2ff010551578e0981af8dc333b83ffd7') in 0.0024913 seconds
+[Worker0] Imported GUID: f16ad9ee5ff13554b98568aa655d6bda - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Sampling.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '75502202aca8d957a6a7f7f817ccbbe6') in 0.0026406 seconds
+[Worker0] Imported GUID: 0d8afcb51cc9f0349a6d190da929b838 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8e8e0fd8c3b27f271d6a2782bf760f77') in 0.0031772 seconds
+[Worker0] Imported GUID: d99701099481a2f489610e977df6dcbc - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/SearchTex.tga - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '37d7804215e168bf281ce6d7e6ff705d') in 0.0058508 seconds
+[Worker0] Imported GUID: f8e5f5614c0d72445b292f4b16ab660b - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/ChromaticAberrationEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '87935d325cd547caece0647726cb2787') in 0.0025877 seconds
+[Worker0] Imported GUID: bb2cdc36291ad714aaca8f440c16c51e - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/Cubes/sRGB_to_Linear_r1.cube - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5cce6642042d5ff8c7acc337ec4735c6') in 0.0030145 seconds
+[Worker0] Imported GUID: 3f7c3687170b90e4a8d2ee6b142670f4 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_49.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fd740b4ae1a27e16507459f8950573e2') in 0.0070569 seconds
+[Worker0] Imported GUID: de3d46fc4bda066408aeba6fb8e44d6a - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/MotionBlurEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3f684dde8acbe7cbee7f8a195498973b') in 0.0031281 seconds
+[Worker2] Imported GUID: 67f9497810829eb4791ec19e95781e51 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'aff691dfb2eef24546b6e59827391730') in 0.1122689 seconds
+[Worker0] Imported GUID: d579562c49280d84cb532cd67d19da5d - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Monitors/WaveformMonitor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cdc1dcae9b08733b964b6665ed37222d') in 0.0030207 seconds
+[Worker1] Imported GUID: ce0f0631fee52da41884853337cab99d - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils/CurveEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '61d85fbca472cfd3727ab3e6facfff42') in 0.0468278 seconds
+[Worker1] Imported GUID: 809388405dafb7145b4927abbdb52bf7 - Path: Assets/Scripts/PhoneStreamer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b81ccf765a783f9496d8a4a8778c9c8d') in 0.0034426 seconds
+[Worker0] Imported GUID: 5f51e0b22aa8cb84b9f422576ce87ff9 - Path: Packages/com.unity.postprocessing/PostProcessing/Gizmos/PostProcessLayer.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd355e1e0cc1776fef4003b265003422a') in 0.0068404 seconds
+[Worker0] Imported GUID: 7a0118b8201c6f14c922d56294ff686c - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/Switch2.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd5784017fbeb777c9d1e077f69cfd6f2') in 0.0023033 seconds
+[Worker0] Imported GUID: 1bdda73de20b6a54592f998f94de3b64 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1d9ac4c4d52f2f8bf88fdafebfd61894') in 0.0017845 seconds
+[Worker0] Imported GUID: 442c24ca7e1a877449477a4154f887f8 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/PostProcessEffectRendererExtensions.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '00411c1223987c0e7bd487ee43302468') in 0.0018492 seconds
+[Worker0] Imported GUID: c520d478f3d2445429bd7ac9c92b03a3 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessDebug.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c6f24cec88d946cc8c0d63fd2406dd24') in 0.0037414 seconds
+[Worker0] Imported GUID: 6b2666165a17bbd4e851c1382898651e - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Decorators/AttributeDecorator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f3e6ad084afde4d4b5b21293a4f89673') in 0.0018836 seconds
+[Worker0] Imported GUID: 8c72b20f77adb59439f8eed4f25a950a - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Attributes/MaxAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5645e015b717a65ec6a45b6ecd974f85') in 0.0021067 seconds
+[Worker0] Imported GUID: ed2a196f4f9f3e546a9fdc6f2f71ef06 - Path: Assets/Scripts/HapticLink.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3fb985f59bc32e90b67ed10e048f6fe3') in 0.0023799 seconds
+[Worker0] Imported GUID: ce8f0e3d7aa50544b90ade567a9fbf09 - Path: Assets/Scripts/PulseLight.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bf42d355085dce63e1ec7a86d68dcfb3') in 0.0051706 seconds
+[Worker0] Imported GUID: 1a9ce5640cde5934aae0022f020464a6 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_40.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f24a5edbf22ec76d8fbdb6d63e371421') in 0.004617 seconds
+[Worker0] Imported GUID: d220742cb204f8e4e9fe5f7b1efa7b54 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a1708e5e3b855643c591f08d18f36242') in 0.0026069 seconds
+[Worker0] Imported GUID: 50b54341495978843a6f85583ed4417d - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_0.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '836ffc0f679f7a22c6082b91e0966d4c') in 0.0042113 seconds
+[Worker0] Imported GUID: 6dba4103d23a7904fbc49099355aff3e - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3c0dac161c9f3dbdf5a0db603d234aed') in 0.0041295 seconds
+[Worker0] Imported GUID: 6c5a4cd8abc6e204985ac645b8dad78e - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Fog.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '15273a93ca272f4a14c7cb40d035bf3d') in 0.0021461 seconds
+[Worker2] Imported GUID: 73ec4ae984a0a0f44a2be737e41a6f2f - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA/AreaTex.tga - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '43f616b732cd3a69f2f3b19af0ffa73c') in 0.0571738 seconds
+[Worker0] Imported GUID: b52d5033b68309943a2386c270a90f44 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_4.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '641b2ca0a218431b3121a8ed02b40e25') in 0.0051542 seconds
+[Worker2] Imported GUID: 71bc1b6b66e8b784b972199b7e90204e - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_43.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2e5b3c57552f44befd4ef8365ac89e13') in 0.0045333 seconds
+[Worker1] Imported GUID: 729a3ae164bcb3b4380459386adcf331 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_19.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1e1d14b8c67fe2aa135bd07ab7b24de5') in 0.0549426 seconds
+[Worker0] Imported GUID: eff4db1c9252e5247b661dec568df962 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils/GlobalSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'afb6f0136ae55c867e2c9eb0daca9880') in 0.001864 seconds
+[Worker1] Imported GUID: 02c0a84bd64c6f044954d8bde9b46ec8 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8329170ec14b6674aa2f0cc0e88a3173') in 0.0044859 seconds
+[Worker0] Imported GUID: f3b0ecb61e2f1e54ebd4572178bfd8b1 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/SubpixelMorphologicalAntialiasing.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '47f61358a4028ebbd4cc3b58813e09e5') in 0.0031078 seconds
+[Worker2] Imported GUID: afe1e502240079342a0a980484b6da8b - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_10.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ead6fe06b613b72b3620ffe4678f84a0') in 0.0063616 seconds
+[Worker1] Imported GUID: cd9006dc442cc244e89b3f492384d46a - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_41.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '30c82bcd1c9286b27cae2b0c99913b93') in 0.007751 seconds
+[Worker1] Imported GUID: b3f6f3f7c722b4544b97e3c75840aa33 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/AutoExposure.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '39e8e96699f58d82ae6e0b324ab12fd9') in 0.0031458 seconds
+[Worker2] Imported GUID: c3c112f1ddeedfe45839158cc4b148d4 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/ColorUtilities.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '65d62156091661da44d691b0542b7374') in 0.0110985 seconds
+[Worker0] Imported GUID: 1abfe0e165ca1e9428b455ffc9a2d9ef - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_2.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5429364b811f7b593cdc7188eaa7cea4') in 0.0132402 seconds
+[Worker2] Imported GUID: 705e7922061713741885ae52a3e0bea4 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/LensDirt - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd7e8d0881c122523b723341178470d01') in 0.0026701 seconds
+[Worker1] Imported GUID: bfe953600e8fb1849a804ee08ace7b4c - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_23.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0321c58f2d0c7a03ea615c511186d735') in 0.0094056 seconds
+[Worker1] Imported GUID: a741cbbb27e6ad747a354440a9132a66 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/D3D9.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c5b720e525c82871fac3fe6e6419e926') in 0.0023206 seconds
+[Worker0] Imported GUID: bc5d8aaf03e613843a0ecaff18e0dfbd - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/ParameterOverride.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'eae7c52e5191ee5d5897ac7eb379a379') in 0.0028504 seconds
+[Worker2] Imported GUID: 6dda07f1420a968449cf4c6620c44d9f - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_20.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8a11baa26647adfc942e54a2d3a3e013') in 0.0047201 seconds
+[Worker0] Imported GUID: b958ad1c92bd3d64c9e61318b8681dab - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9738295df0f32ae072b8eeb01d9213af') in 0.0029225 seconds
+[Worker1] Imported GUID: 0a79c155edf9b2d429d4736abee5acdb - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_35.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c258b1b16fff0e972d6aae653db59c1e') in 0.0058214 seconds
+[Worker0] Imported GUID: c884467f149574e44b21c869b7fc3401 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils/Styling.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0e3dbb8205f5797c6d1a04775c8559a3') in 0.0030161 seconds
+[Worker1] Imported GUID: 4ac1374fad5b72b488c0aa6dc2a6b481 - Path: Packages/com.unity.postprocessing/Tests/Runtime - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'df015b39c16a531e0902205c47d09ba8') in 0.0022075 seconds
+[Worker2] Imported GUID: d2e8e90fac2e6a341a38e1c3963c218d - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_52.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'eddb69c48bbb920d48264617f7c9ae8b') in 0.0066363 seconds
+[Worker0] Imported GUID: 314a03e1d67d9fb4b85926a765017e02 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessDebugLayer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c4a81030c97c8bcbca96ae3f930f23b2') in 0.0024942 seconds
+[Worker1] Imported GUID: 47feae56b7bdcf4499b96c2aa3c6ce07 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/BloomEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '15c148e2635ca5c4fbde57ec87e7675c') in 0.0023492 seconds
+[Worker0] Imported GUID: 32330dbb76fcb1f43a2c85bbcbf1cf1c - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/Cubes - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e2b73be4fc3f903827292044393617fe') in 0.0027704 seconds
+[Worker2] Imported GUID: 2c459b89a7c8b1a4fbefe0d81341651c - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bd3bdefd85636796ed711072c8d95b6e') in 0.0044459 seconds
+[Worker1] Imported GUID: 1fcb2f1e4a7d9ba42bc5940a5611f302 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/PostProcessProfileEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e15a61d21cf76f391c02ad9add1b3aec') in 0.0028874 seconds
+[Worker2] Imported GUID: a2ed510c13db63f4ea5749ef503a99b5 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/RuntimeUtilities.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c0c33563e1bc1fcafe13be8a7eaa972a') in 0.0018677 seconds
+[Worker0] Imported GUID: 0a243807ad889ae44bf63a9bcdc984af - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Monitors - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '075be328574e96579e6aeed874778288') in 0.0026962 seconds
+[Worker2] Imported GUID: 912e288507f1e724492c7c721fa1deb8 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Attributes/DisplayNameAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd760d7d88ebf01354328594fdabfcea1') in 0.0022755 seconds
+[Worker0] Imported GUID: ad99a5d3138ea7e47a3b2a3051034642 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c206a6bbac16c23667bfa03aaecd2fac') in 0.0021327 seconds
+[Worker1] Imported GUID: 6017f374382d64245a0a4aab668e6f38 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_0.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2bfcd2c293c794d30a8f392e4eaeb123') in 0.0049404 seconds
+[Worker0] Imported GUID: 4c63bc487e6c29a4a99f85a6c47b292b - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '027d395257e1339f0589677f62952606') in 0.0038039 seconds
+[Worker1] Imported GUID: 4f2b019548c499944923c5da221047a6 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/Vulkan.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2763e19f04055a8bb8babe96987b1a45') in 0.0027847 seconds
+[Worker2] Imported GUID: e4b5af8727f8b8e49aa97c2e8e5d1a3d - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c34466ba6c7d15a744c8f37e7301c43d') in 0.0041426 seconds
+[Worker1] Imported GUID: cd7292cede5bbe44cb888e1e40efac1e - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/XboxOne.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '02690f689e803e2382d84f0bbf129026') in 0.0033216 seconds
+[Worker0] Imported GUID: 21c950a797aa518438786fc341790e14 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/DefineSetter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f8bc48865bbceddd36faa2722bb38305') in 0.0037616 seconds
+[Worker2] Imported GUID: 0f3902e2aa2609f47ab0c956e56ea0bf - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/VolumeFactory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6ac22742c99fa423320aef44707f293c') in 0.0033798 seconds
+[Worker0] Imported GUID: 79092fbfc2fc7394aa0754682e3089f7 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessBundle.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '32e2e02d493c1fd9534c92d2c46ad443') in 0.0022401 seconds
+[Worker1] Imported GUID: f48a0d4b798943a448e8d2e5d891133c - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils/SerializedParameterOverride.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'af825dc66a9870836c202dcaa84266cb') in 0.0025736 seconds
+[Worker2] Imported GUID: 3020ac7ece79a7f4eb789a236f8bd6c5 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '38022a2c56ffcc21b633b652a3ba4dd3') in 0.0028484 seconds
+[Worker1] Imported GUID: 9f9fffe306f3969418c31ee836b6ffee - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/EffectListEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '28f3a3a3e79a59c9cf7d6c92fab6b635') in 0.0018967 seconds
+[Worker0] Imported GUID: 0ef78d24e85a44f4da9d5b5eaa00e50b - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4fa0be70af817569ccdb285783eeb5ba') in 0.0041777 seconds
+[Worker1] Imported GUID: e4026acd2810a474b9be96bbeb80b959 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/ShaderIDs.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9739caf7f3413d76b668df80eda41cc4') in 0.0021508 seconds
+[Worker2] Imported GUID: b9960364038cbfa4aa49d7b2032d3110 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_45.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c904c9c89394f6c0ffb9675bf9b3f463') in 0.0069757 seconds
+[Worker0] Imported GUID: 5e542d0126a2c7848b66bffc428905fd - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_55.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6e495f2e492fa2a8cdb8cc9b5ad6c005') in 0.0081932 seconds
+[Worker1] Imported GUID: 3ac02e7e783571c468f9c086d2384ba7 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_7.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '46cd31093fb80af8bcca4cd25bcf2d35') in 0.0083192 seconds
+[Worker1] Imported GUID: 600d6212b59bb40409d19d750b5fd1e9 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3d30fa0181935368567bf331294a1eee') in 0.0043411 seconds
+[Worker0] Imported GUID: 09f6c01f98a3ded4daf1afc52a3c260f - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_26.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cd1cdcc7d5d0e93bdfb2b5befd178883') in 0.0079698 seconds
+[Worker1] Imported GUID: 10af18f17ff5ecf47bc4dbd1551b36d2 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1810f68b00f194232a293098f4ddb7e1') in 0.0039283 seconds
+[Worker2] Imported GUID: 3884f7a2d04ffe8409ad9200b275896f - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/LensDirt/LensDirt01.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '28877e18ce1c9eab586040a69561b5e0') in 0.0152508 seconds
+[Worker0] Imported GUID: 4b42fa3a7c4baed49bb4f6a56dadc03f - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/MeshUtilities.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '342f566f24c4395145a252955ae3e358') in 0.0035145 seconds
+[Worker2] Imported GUID: 1d2cae9d8c54de04fab072666ddd1e57 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Attributes/MinMaxAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7783b2153ab97c872ea4bd9d85659576') in 0.0029011 seconds
+[Worker0] Imported GUID: c235f7d2e7a5d3847b50e73fccc74bab - Path: Packages/com.unity.postprocessing/Tests/Editor/PostProcessEditorTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b830aeffa1d34ad6951bc0b773371d0f') in 0.002304 seconds
+[Worker1] Imported GUID: d7640629310e79646af0f46eb55ae466 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b15680180269968649bcf291a53705be') in 0.0058858 seconds
+[Worker2] Imported GUID: 8c2fcbdf9bc58664f89917f7b9d79501 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ee3bcccaaa994240fc0a8f71380574cd') in 0.0033475 seconds
+[Worker0] Imported GUID: e034505fdac568a45af53ec1cdb0fbb3 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/PropertySheetFactory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5fb016cefabc3e8405f42cc53b397c90') in 0.0020877 seconds
+[Worker1] Imported GUID: 2c89984c2a3e6cd4492c6f695f07bae6 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/PostProcessLayerEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8e1b44b84704d03b5bf7f6f6426f6200') in 0.0030274 seconds
+[Worker0] Imported GUID: 67909952e72978b4ea41880509c936ff - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/AmbientOcclusionEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bf6ca88f53d636680fde6a7613405c45') in 0.0033154 seconds
+[Worker2] Imported GUID: fe144c7e314047f4bb779d555c5405ac - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Editor/ConvertToLog.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '924812488485b42fe8f42051fe49e80a') in 0.0053897 seconds
+[Worker1] Imported GUID: b34a29e523cb9d545881e193a079f2df - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4f4a2cf32e5703b66ce7107ab8592e68') in 0.0032194 seconds
+[Worker1] Imported GUID: ed6416461734f3a4d97b2475252d5f6c - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/D3D12.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0868e5b5c6e8f91d4215dbe91f5cf3e0') in 0.0022763 seconds
+[Worker0] Imported GUID: 70f23eaf7d8ae9147aa542d20e93733b - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_56.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd7a17af23c0371f5b14df4f30973f4a9') in 0.0051519 seconds
+[Worker1] Imported GUID: 34a819c9e33402547a81619693adc8d5 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1cf41f3d19c2f7b1787af3616fdc4e77') in 0.0029957 seconds
+[Worker0] Imported GUID: 34a460e8a2e66c243a9c12024e5a798d - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8d236065680f3cbc52c7605271551eb2') in 0.0024919 seconds
+[Worker2] Imported GUID: a03c400b0e3959f428ee99dfc6cfc263 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_62.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dcc10a71f599f626698cfef53ae28200') in 0.0078698 seconds
+[Worker2] Imported GUID: 2f9632f4699643648be1e14a994b8d05 - Path: Assets/Scripts/ChaseCamera.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8d54f024e714a48fc252d4db5172e62a') in 0.0032794 seconds
+[Worker0] Imported GUID: 71583cfd8899717428d5b1a95fa39cda - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_9.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '74b137ca836e01cc78c007ad721e31f0') in 0.0067878 seconds
+[Worker1] Imported GUID: c94b57b5a32a22d43ade66e09f6a4bd2 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_53.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ff5f0a9d513ef05f9f8239c68f481615') in 0.0071715 seconds
+[Worker2] Imported GUID: 981a66a12fced7a45b3c106b67167ab5 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/xRLib.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0f1b1600fbcd295be56b78447accd8ea') in 0.0026405 seconds
+[Worker1] Imported GUID: d65e486e4de6e5448a8fbb43dc8756a0 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Grain.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2f3d87fee91289589b0aad0ba628df80') in 0.0030132 seconds
+[Worker2] Imported GUID: 5a7e5d36c781f1a469ea8f981b785506 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/PostProcessEffectBaseEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '41ab882d1fbf7633d3a3a2607292f220') in 0.0040839 seconds
+[Worker1] Imported GUID: 4d506bd5da20d0248bfa343c6693d655 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/CubeLutAssetFactory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9d03627d712f6938420f0f117b64f5a0') in 0.0021407 seconds
+[Worker2] Imported GUID: f5422948b83b1d34c86e710f0d9fea30 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Attributes - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0bc020a0bdf27239566cbc092d55b0f2') in 0.0030419 seconds
+[Worker0] Imported GUID: 0f8fa14b3731cda4e947062e734d5e1e - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_1.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '800738322b219c2da8b9adfba1b7d817') in 0.0100717 seconds
+[Worker1] Imported GUID: f75014305794b3948a3c6d5ccd550e05 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '27dd08cd96e387cbc07b486be0d326e5') in 0.0040713 seconds
+[Worker2] Imported GUID: d1d54233b393c4b49b38978df140e7fa - Path: Assets/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2585727dd9cfbf84c035791d1c80096a') in 0.0032836 seconds
+[Worker0] Imported GUID: aaf1ed25614e1134daed0822f948ebb8 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/Cubes/Linear_to_Unity_Log_r1.cube - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dba2eba0edfbb4ec687532d142bbb7ca') in 0.0033234 seconds
+[Worker0] Imported GUID: 3869d037332a74744a54736f00d62763 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/VignetteEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f8c154d717447dd8ebf65554d31d324b') in 0.0033932 seconds
+[Worker1] Imported GUID: c564cc69bd8582a48b2e0a2090d28361 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/ScalableAO.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '90eabf0699cb5cb3c5728234a9ff381f') in 0.0034169 seconds
+[Worker0] Imported GUID: b17c8e94a77f9a24d80deb0464a28ddd - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Dithering.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7968ce9e5730685816dd937e32f75ec5') in 0.0035957 seconds
+[Worker2] Imported GUID: 87a5e40cc271ea648b583616f6ebe7fe - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_32.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a01ab480707212ea3abe396f77e23dd6') in 0.0084571 seconds
+[Worker1] Imported GUID: 302dae2302d23ac49bbec3e17c0530b9 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/Cubes/Unity_Log_to_sRGB_r1.cube - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f5b1be274b190c35d289aed4aa95d2dc') in 0.0044607 seconds
+[Worker0] Imported GUID: f85e8d04208ed5145a521dd27d174830 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/TextureLerper.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '88421b3a5416ec99020556fe4e563838') in 0.0026039 seconds
+[Worker0] Imported GUID: d6ae47710b8593e41960a944bb29e6c3 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Decorators/Decorators.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e9ab43504255e17bd0da40ac09ae763a') in 0.0028236 seconds
+[Worker2] Imported GUID: 4f98e9c96c8a48541b5eb704e92d99b8 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/LUTs/NeutralLdrLut.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b6892852c021c909ca55f7dc004a9ddd') in 0.0061149 seconds
+[Worker1] Imported GUID: ff5f3317371838d4fa16ac6c2acf2040 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SpectralLUTs/SpectralLut_RedBlue.tga - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8aef6f6f2806ac9f8bc170084ef17a1b') in 0.0061909 seconds
+[Worker0] Imported GUID: 4484ba9c9f221894bad091ea59c4b9c0 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasingBridge.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b8367d1ac393afe134dac557bf41ed45') in 0.0032794 seconds
+[Worker0] Imported GUID: 9753335d6f48da542be1c720aa07bbf5 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Attributes/DecoratorAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '047d0afa8d64d7f8e6fd018a1432fcf9') in 0.0030727 seconds
+[Worker2] Imported GUID: d8c290e38ff0425409d0ae6a98c95e41 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_50.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b007923f2fda6a7ef05bc35b433bc07b') in 0.0088177 seconds
+[Worker1] Imported GUID: 4a8f054acfbd08043a931cd22760758d - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SpectralLUTs/SpectralLut_GreenPurple.tga - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4c2ffe35c06cbd4dd521cc7ee52505b8') in 0.0086411 seconds
+[Worker0] Imported GUID: 75be0b76c5da33a41a2e679cfb7f453c - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/PostProcessDebugEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '832a19d8d265f1d56052bace971b40bf') in 0.0029218 seconds
+[Worker1] Imported GUID: a46f66b7c3fc33547bd9093e960d9ab1 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8440d4b139c10b678674eeb412641ab4') in 0.0029181 seconds
+[Worker0] Imported GUID: 4ae2d18891fcdd2408b0c1f3f2038c62 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2efb279673e3bf5d3cb8d363cb0894f7') in 0.0026983 seconds
+[Worker1] Imported GUID: eb4c0b518e013c8418135b3bd8a91b6c - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/DepthOfFieldEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4f499ef21ace5d6463c131ce166cb91f') in 0.0037436 seconds
+[Worker2] Imported GUID: 547dbd5f858c74047ba3f213e4408307 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_39.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b017797b8e496d7e115019de66caa10f') in 0.0079511 seconds
+[Worker1] Imported GUID: de7f3ac52268a194383c7d62c2a343c1 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Editor/Trackball.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6044b0de7d02d78f808a82ff1a61a458') in 0.0030774 seconds
+[Worker0] Imported GUID: a469f920b21fc7c4fb5b950917ce2fb2 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_2.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1423bf68ab736427ff20968a1aa997b0') in 0.0082843 seconds
+[Worker2] Imported GUID: 6b0a189df0bd4d5448eaefb4e673ace8 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_31.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd4fa1aa39ba60d2b74eac1e6a8b9bbb6') in 0.0077383 seconds
+[Worker0] Imported GUID: 4a11d65ce13d5f542a0ff136cc2f3fba - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_63.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2ade1bd1253318b0c26f1ffe62929271') in 0.0062754 seconds
+[Worker2] Imported GUID: 499867e2df2e54e4aad0b9333221f875 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/LUTs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3d66b7f0a17a034556413eff47cbd695') in 0.0028544 seconds
+[Worker1] Imported GUID: 2ee161d8945169243b5698fec114e1b7 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_15.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e142e9d7dcc0e31096991c2a17edb50a') in 0.0079092 seconds
+[Worker0] Imported GUID: 44788f6e7bbf9174181bfe4689e66131 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Attributes/TrackballAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '098288f2e091c5eb52806297bdb2b31b') in 0.0023773 seconds
+[Worker1] Imported GUID: d82acb873f357d046901f9e9f888911a - Path: Packages/com.unity.postprocessing/Tests/Runtime/PostProcessingRuntimeTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ee4fd8d6cbac892f5e0c499d47676684') in 0.0035736 seconds
+[Worker2] Imported GUID: 2705889b3a9580a47b334f039bfdcb00 - Path: Packages/com.unity.postprocessing/package.json - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9f29618a1c5a19d40e92a4a96610df71') in 0.0043481 seconds
+[Worker2] Imported GUID: 69a4fc27499557744827c787d71fdf08 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/BaseEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1c230e9903f8ec3d9ecc3609b7619a3a') in 0.0026209 seconds
+[Worker0] Imported GUID: 119591e0bb084e848835d237546b3882 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_61.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '754ef4e7a80da6a7405003b3808a5336') in 0.0085925 seconds
+[Worker1] Imported GUID: 0fa10b21877c61b4db40ba5708815f81 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_30.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '791ebcb23ea20fa3f55abe4246f8303e') in 0.0070281 seconds
+[Worker0] Imported GUID: f40b851808c81294bac71a52a2bc39de - Path: Packages/com.unity.postprocessing/Tests/Runtime/Unity.Postprocessing.Runtime.Tests.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '44d322e8d21bf87adf046460cea6a9c1') in 0.0044953 seconds
+[Worker1] Imported GUID: 6a0c0086cde60e74e9ad1fce57eab9f1 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/OpenGL.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '62c3a491f0f76355c45cf3ec93ee1515') in 0.0046526 seconds
+[Worker0] Imported GUID: 7ad194cbe7d006f4bace915156972026 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '415533002b56527c75cb7b5c34ab3e79') in 0.0044031 seconds
+[Worker1] Imported GUID: 4da61023839a0604d834e6ffde67ad52 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/PropertySheet.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cae34eb001e87e8ab18285fe06ebd2bf') in 0.0038807 seconds
+[Worker2] Imported GUID: a2960ffde020f27409e070d92fb2e00b - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/LensDirt/LensDirt02.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4ff4325780d42b216b79c4604c6ff36c') in 0.0177023 seconds
+[Worker1] Imported GUID: 3c2f1fb7e4b66e74191b7c328ada52d9 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a1738eb6717d9d5870b329c87b8a37ba') in 0.0057246 seconds
+[Worker2] Imported GUID: eb10e8cb1eab7904bb028a123f717ac7 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/Cubes/Linear_to_sRGB_r1.cube - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cde48f437da643f458f7bb0357702730') in 0.003154 seconds
+[Worker0] Imported GUID: 74aca53eb7273624baffc2bf5e5cc173 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_18.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5f6fa4c67c6997c74abe888c876870fe') in 0.0081598 seconds
+[Worker0] Imported GUID: 26ed99f46b86df8449003e6ec0f65144 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Decorators/TrackballDecorator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e4c5dc7e6e2314cb9a43b01057ee0e34') in 0.002725 seconds
+[Worker2] Imported GUID: d4e61b1eb5c3ac248add7bb738198560 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/D3D11.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '793d54ee12a5b248fdcc64a995e555bf') in 0.0038301 seconds
+[Worker1] Imported GUID: bdd06fb88ef36ed4a85dd506352c2d80 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_27.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ce3b23389452661bf3d9f8b206fb78e1') in 0.0064471 seconds
+[Worker0] Imported GUID: 42496b74c071f5749950ca1abe33e945 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd23b58d458fc661230661f4d618b65e4') in 0.003321 seconds
+[Worker2] Imported GUID: 63007e9c3f71cad46a59f223a8b32d46 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Attributes/MinAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8b273e857206c7c0e1a3f6775665bbd2') in 0.0031146 seconds
+[Worker0] Imported GUID: f59da4cf1b7dee244bc37fa6add23b00 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/MultiScaleVO.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f717e2d3ddc5eb64a85f1d38fb9a307e') in 0.0024381 seconds
+[Worker2] Imported GUID: 322fbe1dae0fe4a4e9645768b3944aae - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Monitors/LightMeterMonitor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '09f1f7fc6356d66f6fb3cafca44fa9fd') in 0.0028204 seconds
+[Worker0] Imported GUID: 4bf4cff0d0bac3d43894e2e8839feb40 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b9d59aaab0c6e7abf978c01eec03b9f9') in 0.002122 seconds
+[Worker1] Imported GUID: c072b653e98a06e40857d76ca8c7eecd - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_3.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '672d9944564a76aee849c074f5071f6f') in 0.0076636 seconds
+[Worker2] Imported GUID: 76eb0b51417a8442180aa67edda7d01a - Path: Packages/com.unity.postprocessing/CHANGELOG.md - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e912bf4ccf7eaee45a880f1a5f42ece6') in 0.0043629 seconds
+[Worker0] Imported GUID: 5cfe6169b379ff84eb9796502a1a144d - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessEffectRenderer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd1522f81ac8f29ea91be99dbd0f0c89e') in 0.0036402 seconds
+[Worker0] Imported GUID: 616483d5bdbf13c43ae1b005134b8c11 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/HaltonSeq.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '709ebe39e7bd62ed682402e7faf783c9') in 0.0035407 seconds
+[Worker1] Imported GUID: bf95b6fdc179b0e4f890c841406193fc - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_17.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd191826c7fa3f1fe2c29afb4563c72a4') in 0.0078526 seconds
+[Worker1] Imported GUID: c687cf9a3e8607a4b991e6d445a2f9bf - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/Spline.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2b00a0da931fdaf7e8dd67bcab3e0e60') in 0.0022504 seconds
+[Worker0] Imported GUID: 442a14ff04d835d4ca7c574aa4237b07 - Path: Packages/com.unity.postprocessing/Tests/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '96fdae74a37c2d7493ad228dc6e1ca94') in 0.0026554 seconds
+[Worker2] Imported GUID: 936dea238abb0864ab3985a995e16a29 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_54.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c168b1ddf440d026b559fac6c14e6f19') in 0.0096097 seconds
+[Worker0] Imported GUID: 18095202690616846a484e633db69455 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/Switch.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd47f0e089b83f29c94559267b989cdb4') in 0.0021684 seconds
+[Worker0] Imported GUID: e81ec1796a6c9844f9ab3847494d7911 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/PostProcessEffectEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e64ff8202a3fa69e0f46f4785ae274bb') in 0.004534 seconds
+[Worker2] Imported GUID: c55042318a938344ab23cd7f09dd0076 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_8.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3fba7da7d7ce8f2a6ff89e492f05abfc') in 0.0071227 seconds
+[Worker0] Imported GUID: 279b45d82a92b4d4fa0b30d03486fa68 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Monitors/VectorscopeMonitor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0c5d67a2db43db087a6977a6fc685443') in 0.0030547 seconds
+[Worker0] Imported GUID: 62591175d691aac46a9db652057e905c - Path: Packages/com.unity.postprocessing/PostProcessing/Gizmos - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b465a9fa44f0692a59025a7cb4b80422') in 0.001696 seconds
+[Worker2] Imported GUID: 8b9a305e18de0c04dbd257a21cd47087 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessVolume.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9a616e40d415f641b8b42fb025294652') in 0.0032903 seconds
+[Worker0] Imported GUID: 18ff20fea2d39cf428e31d3e75b4ae79 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ff376b542978f44fd4cdc878dfff6fac') in 0.0033995 seconds
+[Worker2] Imported GUID: f997a3dc9254c44459323cced085150c - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e19a6f26a384ce906ddee6d850f7a5e7') in 0.003905 seconds
+[Worker0] Imported GUID: 7758395f983044344b2c8ea743e956c3 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/LensDistortionEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'af14567ff2fa6f1be310ad24249fb140') in 0.0033231 seconds
+[Worker1] Imported GUID: d82512f9c8e5d4a4d938b575d47f88d4 - Path: Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '578c0a33a21933031107933aac8c3c51') in 0.046307 seconds
+[Worker1] Imported GUID: e02724c54d545ad439d7a5fa991ae924 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a28c1f4f72d3445ba03d9f76e376dfa4') in 0.0029907 seconds
+[Worker0] Imported GUID: 92c63830cd50c0b4fbb8233613839958 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '12564455a2b3aeaa684f8659a553ee63') in 0.0036872 seconds
+[Worker2] Imported GUID: 32c6a5f7143b86c44bd5cdee2ff3f8ad - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_24.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '620ef9a41daf66fb73e4d1defe62f924') in 0.0088985 seconds
+[Worker1] Imported GUID: acde5141d5f4f7a4188394bd52c4dc38 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_5.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9ac70728bef35f01be94a6a3e468dc17') in 0.0066012 seconds
+[Worker0] Imported GUID: d5a51525b27e3ee4aadbeb39cbcf0750 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_51.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ead2ed32eecc275be2f0ce1bfcea3d98') in 0.0080021 seconds
+[Worker2] Imported GUID: b94fcd11afffcb142908bfcb1e261fba - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/MotionBlur.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f21d067c1ac5204fca988e0d2e196822') in 0.0032974 seconds
+[Worker1] Imported GUID: 1d6958e30e40a254dbe5a54c573eeb3c - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c348f19a3d58c787467a1b8a62b17ff7') in 0.0069084 seconds
+[Worker0] Imported GUID: e138166e7a7c70f49943be7edda35d35 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_57.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5cb96358842f92fa920bc76a64f08097') in 0.0058841 seconds
+[Worker1] Imported GUID: 48a79b01ea5641d4aa6daa2e23605641 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Bloom.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '81fd8dbbcfb874b34f376fae199c956c') in 0.0036544 seconds
+[Worker0] Imported GUID: fc4403a2b9698954c81d797b70e8a3e2 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '441742cb463e99ced46a2f714f1ffee5') in 0.0031957 seconds
+[Worker1] Imported GUID: 70ea2ab329ffbac43a0a02daa61dbe6b - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Attributes/PostProcessEditorAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1ade18c7263991ce11ca0f4a9fcf1fdf') in 0.0029745 seconds
+[Worker0] Imported GUID: c053166c69db5b943a5e70ec28113a24 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Distortion.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9d848ee8a1137717f3cde5b6c9adedc5') in 0.0035979 seconds
+[Worker1] Imported GUID: 41bbedb2cfb9e934f2bf95e965a2e082 - Path: Packages/com.unity.postprocessing - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd910dd7e6ffab55016f1debee3557b5c') in 0.0018045 seconds
+[Worker2] Imported GUID: 69e847bbff1cf5449a4ee0bbd045dbc9 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/LensDirt/LensDirt00.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5091e6bb4a480d2bc7d3d533a9469a22') in 0.015627 seconds
+[Worker2] Imported GUID: f7ea35cfb33fcad4ab8f2429ec103bef - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cd294fcffb898a379150b2244b0ed4e4') in 0.0037844 seconds
+[Worker1] Imported GUID: 771903fe7b4674445829e52e91cff019 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_11.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a75d9d2ab13d459c3f65e81124fd331e') in 0.0079178 seconds
+[Worker0] Imported GUID: 42183971d24cfe443a346e7ec6e83bbb - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SpectralLUTs/SpectralLut_PurpleGreen.tga - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2dc7472f8da732b97963ac73a5d5cf58') in 0.0100931 seconds
+[Worker2] Imported GUID: a4811657005cf0a439cbc4a989ce9083 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiskKernels.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7903351821c8d50ed136f3da7fd67299') in 0.0047507 seconds
+[Worker1] Imported GUID: 28cff9aae95df994e98129a9b35627de - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Attributes/PostProcessAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4da721141437d6d06372bbf7f380aa18') in 0.0030799 seconds
+[Worker0] Imported GUID: 38da3638e0c5cfc4cbafb133be6af039 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SMAA - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'cd93c81133acc6f4b38be35cffe3ac43') in 0.0031592 seconds
+[Worker2] Imported GUID: 02d2da9bc88d25c4d878c1ed4e0b3854 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0a09be6a9550997ce67f8b2b60628305') in 0.0038506 seconds
+[Worker1] Imported GUID: 18183ebfeeab97749b43e38b928604a7 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5508a3abf9f5b96ca4e5c4e10a93f69c') in 0.0033817 seconds
+[Worker0] Imported GUID: 404fa8def46b1c447817e1ebdaa7144e - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_60.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a99ad32dcc9136c3766bb7b5b8563078') in 0.0061939 seconds
+[Worker1] Imported GUID: 8f735421c1ed8e54c992b4640aca9a89 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '512de6276102e9ec03164e5f9b931487') in 0.0032762 seconds
+[Worker2] Imported GUID: 599b4e72f6c212d40819cfde14826671 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/HableCurve.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fc1bad7e80c32d2226467bb200c759ac') in 0.0036986 seconds
+[Worker0] Imported GUID: 4b0cd5ddb61a56b4f86ea0fd0a102fe7 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/DefaultPostProcessEffectEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6a3d8232d8195d86b29cad90d6f54839') in 0.0037843 seconds
+[Worker1] Imported GUID: c387aa7210e2f324b85febd7211d6c9f - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/XRSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8e40f4e1cbe76d43113617d9a808fa68') in 0.0035165 seconds
+[Worker2] Imported GUID: 81af42a93ade3dd46a9b583d4eec76d6 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a85734ada60b0bb51820dce5a1f428dc') in 0.0047658 seconds
+[Worker0] Imported GUID: eeecf288e8ae5be4692977cae1a3e077 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f1f30d5a7bce098e33c437e0da56b629') in 0.0031793 seconds
+[Worker2] Imported GUID: 67d9249960fda4c41b0a23a65573a8a2 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SpectralLUTs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dd84a69f3ece2a320f2019e5319c699e') in 0.0025879 seconds
+[Worker1] Imported GUID: b7733f6a6fd11474e8fc598901f90fab - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessRenderContext.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6e09d7731378deb562ad5b81ab0b55ab') in 0.0044017 seconds
+[Worker0] Imported GUID: 18b9eca2f52e6624db241af91bab06c9 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Attributes - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '359054215408cfe1bef9aea398a4540f') in 0.001682 seconds
+[Worker1] Imported GUID: 5d05ae29f423ce241b6cddfe46280b4c - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Monitors/Monitor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a376b0f88cb72e6bf3dda9bf7aa8ad70') in 0.002017 seconds
+[Worker0] Imported GUID: 75066207954ccc44aa9d134af49040de - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Dithering.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a8ad6b41bdd36f463aded94c46b87977') in 0.0031589 seconds
+[Worker1] Imported GUID: 62e2b920ea5fcaa4982e7fc50bf690a8 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Fog.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '09651cd4c38bc0b928ee1f9570d4718a') in 0.0024883 seconds
+[Worker2] Imported GUID: 373f9bf6b0841af4ebf26d25e4a3f4e2 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_3.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b9aa6d3db0a2a2b5fe271ba02e3e9034') in 0.007652 seconds
+[Worker1] Imported GUID: 556797029e73b2347956b6579e77e05b - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/DepthOfField.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '231061a4f6c4638913535a3d241714ae') in 0.003077 seconds
+[Worker2] Imported GUID: 2399c8729aaf8344e8f9cf4721c5803a - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/PSSL.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a25dd43bdde69382b42ea6c224e3b755') in 0.0029646 seconds
+[Worker0] Imported GUID: b266511438fae724f9d3ce6bd26583e8 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_42.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c794a3a4a66e7c85193599e7a0984216') in 0.0071113 seconds
+[Worker1] Imported GUID: 3e4b5d9a1abab984cbe0cbdb31fca939 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/CubeLutAssetImporter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2bd0329df37b9dfe41442ff769f07bc7') in 0.0031711 seconds
+[Worker2] Imported GUID: e58158d9d8b440d4ca944a07d6cde9af - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '22122ca075d8aee641e5ddf3106626be') in 0.0021291 seconds
+[Worker0] Imported GUID: 2df5c9d441da8704c8eab449a2f79d85 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessEffectSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2c85c46e88e4f37e4e0c6847c0f6e7c4') in 0.0038601 seconds
+[Worker1] Imported GUID: 382151503e2a43a4ebb7366d1632731d - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '77d2648854927879b1b39470e59ec135') in 0.0044148 seconds
+[Worker0] Imported GUID: 3051d2fb25301fa4a81e797109712feb - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/AutoExposureEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3c083978e4920b45f97a48c75f37c785') in 0.0040542 seconds
+[Worker0] Imported GUID: f8baf5b99881c054d90afcd1dffd11eb - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/TextureFormatUtilities.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '05d282d1ec7c32b9b53c78a7e0dc0415') in 0.0027096 seconds
+[Worker2] Imported GUID: 70d0a1182b29d6347ac70374c3593bba - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_7.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '16cae53e8d91a0fb1a410d2f9c387eaf') in 0.0092549 seconds
+[Worker1] Imported GUID: b7f000750830ddb4bbc80065b9314ce9 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_21.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a950a8a82c6882f9495f404b006d6370') in 0.0078414 seconds
+[Worker0] Imported GUID: 5bb6ef6f3e1b20348b4fdb01e4c404e2 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Editor/CurveGrid.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'afd00b752b9ec694f7951c58e313dfce') in 0.0020963 seconds
+[Worker2] Imported GUID: 5ab0816423f0dfe45841cab3b05ec9ef - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1bc1b77d2bdbbd6c15c39e84e80d87f8') in 0.0034252 seconds
+[Worker1] Imported GUID: 3ae5839b763bada47af0cca23c360452 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/TargetPool.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3090cd5ec0b8f4bec66b8f5c3834da0a') in 0.0021912 seconds
+[Worker1] Imported GUID: 9597bf0cd70376447ace14a366b40fe8 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/WebGPU.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e528ab9d53bbda233c9a12861ee3f224') in 0.0030369 seconds
+[Worker2] Imported GUID: 7fa986a4042ff154093d3772d2dc4fc9 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Colors.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '80bf23f50edf8dc27298dd2bbf12ac70') in 0.005085 seconds
+[Worker0] Imported GUID: aa80dc44aa4fe4c43bb9d51d90cf2958 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_29.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e2f41fc05004f78a0af66d2ae96b7566') in 0.0096165 seconds
+[Worker1] Imported GUID: 9b77c5407dc277943b591ade9e6b18c5 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/LensDistortion.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e148af93fd39c7d4a0ec81d45c545572') in 0.0038541 seconds
+[Worker2] Imported GUID: 51bcf79c50dc92e47ba87821b61100c3 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e9b6d1fde963c341a5f2bfcfc993e4d7') in 0.0030235 seconds
+[Worker0] Imported GUID: 31e9175024adfd44aba2530ff9b77494 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2c0d077c282dac6c31f78bbb28281c31') in 0.0032069 seconds
+[Worker1] Imported GUID: 09e002b759745fa499d539b9021af38e - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils/EditorUtilities.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '512eb8a8a343435d4df7ca65a5a3758e') in 0.002987 seconds
+[Worker2] Imported GUID: 40b924e2dad56384a8df2a1e111bb675 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Vignette.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '42fdf280efffef8608fb6aba93a3306a') in 0.002802 seconds
+[Worker2] Imported GUID: a35efad8797223d499f8c68b1f545dbc - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Unity.Postprocessing.Editor.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '11a7df6c4613e939918b32e660a21752') in 0.003857 seconds
+[Worker1] Imported GUID: 351e95d0e20a54849bd4ce5f9b498934 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_36.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '82abe78bc1107cb8ce2734c15731a117') in 0.0074597 seconds
+[Worker0] Imported GUID: 999434725cbc2be4eb54043b36efd4a8 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_6.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f12c5f120833f26a461084b5d2681d39') in 0.0078643 seconds
+[Worker1] Imported GUID: e4732e1210a3d39459db8b431f866659 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessEvent.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '65a3eda2cfa3f1beda94632e084df321') in 0.0032798 seconds
+[Worker0] Imported GUID: adb84e30e02715445aeb9959894e3b4d - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/ColorGrading.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a9cf885e32d5e35fc345330b5be36e16') in 0.002942 seconds
+[Worker2] Imported GUID: 318cbcd94840f1d48aca4d86234dc2e7 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SpectralLUTs/SpectralLut_BlueRed.tga - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '931544805c74fe7735ed2e5425648c49') in 0.0088543 seconds
+[Worker1] Imported GUID: 6d1cd2be5ba39024fb7362476c42d023 - Path: Packages/com.unity.postprocessing/Tests/Editor/Unity.Postprocessing.Editor.Tests.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0dcdb2760ef45982461941d8b377f33a') in 0.0045783 seconds
+[Worker0] Imported GUID: d96974690c77f50489eb60ec84bd8dac - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_59.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1883127fe052c53da8070e17a9581209') in 0.0056448 seconds
+[Worker1] Imported GUID: 418668fbeb6130848b1bffc8d5645b45 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a6774ef6c0688b2a0eade6458efc7d20') in 0.0031297 seconds
+[Worker2] Imported GUID: 79b86f3419b87f3429164a956da8cfab - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_6.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7c007d737d14ca343a2ef40f25838a01') in 0.008822 seconds
+[Worker0] Imported GUID: cdbdb71de5f9c454b980f6d0e87f0afb - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '39af15ed429210a5ce81ca07f70de219') in 0.004207 seconds
+[Worker1] Imported GUID: 2ea9ecb99e9d2604c9c553b14e63a67f - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '89d1b1dc7171b3bf18f642c1ef3dc162') in 0.0036365 seconds
+[Worker2] Imported GUID: c1e1d3119c6fd4646aea0b4b74cacc1a - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '085fd6b8990cd5c83874aec405dee4dd') in 0.0044044 seconds
+[Worker1] Imported GUID: d798d5719bf3b434eafb013385f872eb - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/ScreenSpaceReflectionsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6209d1fdb1f1ed8ca81e096090ec4f34') in 0.0027408 seconds
+[Worker2] Imported GUID: e4d3e4779e48a374f91d48d4c0aedb7b - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6e309d3813dc94d5beb516bdbd538865') in 0.003398 seconds
+[Worker1] Imported GUID: d60799ab2a985554ea1a39cd38695018 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Unity.Postprocessing.Runtime.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4a69be3f86764dbee5baea10d854272f') in 0.0032154 seconds
+[Worker2] Imported GUID: 4e487364a0cd33f4a9ef2ed93819d4d7 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/PostProcessVolumeEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'eaf0999accd39cc0e98bcbd294c4e1ab') in 0.0034943 seconds
+[Worker0] Imported GUID: 153f7d6dfbe713d4884df0f1e243ba92 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_16.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9afe3f74983e7c5e2904ac5223ba13ee') in 0.0107217 seconds
+[Worker1] Imported GUID: d4351734f8a0aaa42a51a99db92e92e2 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/ResourceAssetFactory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9b0716d283019f249593bac2152e2119') in 0.0044824 seconds
+[Worker2] Imported GUID: a71093f2a4fe26a40805c22739e10e4a - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9569f7680f32f3e88e717a9fc8391bcd') in 0.0044539 seconds
+[Worker2] Imported GUID: 6050e2d5de785ce4d931e4dbdbf2d755 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/ChromaticAberration.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd934896af4c8afd11070593508fec691') in 0.0024504 seconds
+[Worker0] Imported GUID: 9660a4ca1ca8425408ac25c641932977 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_38.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b7ffe591aa9fd6e910d551522d5c2618') in 0.0079595 seconds
+[Worker1] Imported GUID: 8e6292b2c06870d4495f009f912b9600 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessProfile.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8027fa0f5efb1580e32b1e1872f6be6f') in 0.00535 seconds
+[Worker2] Imported GUID: c1cb7e9e120078f43bce4f0b1be547a7 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/AmbientOcclusion.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9e26b6e47999712925db2171954234e5') in 0.003607 seconds
+[Worker1] Imported GUID: 3e6879594f0f31c42b64e91e59fe78f6 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '796ac33b6d95b5653afaf16703583eeb') in 0.003265 seconds
+[Worker0] Imported GUID: 4117fce9491711c4094d33a048e36e73 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2d32cced6da9808b9575e13374bdd5a7') in 0.0054381 seconds
+[Worker0] Imported GUID: 948f4100a11a5c24981795d21301da5c - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessLayer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a7470c5f85d67b6ac14da561c440e136') in 0.0048353 seconds
+[Worker1] Imported GUID: 68613e6a221be1a4b9f31d7fa1c2d1bf - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_13.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'de85223047fdc35f533203fb711dff28') in 0.008835 seconds
+[Worker2] Imported GUID: f4b8ab78b57749d4e96d36f6d8a395d0 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_25.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'accfcfe3aa1a1e1fc248ad00ad5a4c6f') in 0.0104616 seconds
+[Worker1] Imported GUID: 30f4b897495c7ad40b2d47143e02aaba - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessResources.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '733c5d101e1deb23fce84596bf7a466e') in 0.0028659 seconds
+[Worker2] Imported GUID: 1da84851b99c43746afb49e79ae2b1d6 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b430ccd07ac55ef58581e749cbf09b60') in 0.0031232 seconds
+[Worker0] Imported GUID: df01d03f056c6f445b4b8a0ae054207c - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_22.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '59b6ff08382cb8d3a641f67e5b1bfd4c') in 0.0094899 seconds
+[Worker2] Imported GUID: 5a7fc26078c70a6469392d9775f433be - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/TemporalAntialiasing.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6e06795921ecdcaa86525698e6221e1f') in 0.0041349 seconds
+[Worker1] Imported GUID: b71bb466b71fd13449dd736f63caeb67 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_33.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '75f1eb954ee181567dd130b7dbd2bebc') in 0.0071537 seconds
+[Worker0] Imported GUID: 9b853726bb222aa4e86ef5f7633d2c15 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/Cubes/Unity_Log_to_Linear_r1.cube - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd322d1d8abc0af85f70c3971db6dfee4') in 0.0034774 seconds
+[Worker0] Imported GUID: efd3e892ff9d0b94c94e039ad5619e5d - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/FastApproximateAntialiasing.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0ad5e0277bb3c791f3e9f9141da8e35d') in 0.0052294 seconds
+[Worker2] Imported GUID: aff59c63d25d43f4c938f248837c30fb - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_48.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9d4178052cf16fcc6c453fdd4da9574e') in 0.0101737 seconds
+[Worker0] Imported GUID: 38502e5cb7782364ba3db59850a9a8ad - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/Metal.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '784af6a5f3efb7dfa3f994087bd526b4') in 0.0048947 seconds
+[Worker2] Imported GUID: 5c66af49245494b4a8b294f2d39e7387 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a143c5657c2343e6dcd573d162982b32') in 0.003757 seconds
+[Worker0] Imported GUID: 8b182ecae5d2c944bbfc470ccebd30d4 - Path: Assets/Scripts/RoverFX.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '67706da04d1dd8fc8b406ef67703f56b') in 0.002616 seconds
+[Worker2] Imported GUID: d7de89b714449b04391f3a2fb53a9022 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/ACES.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '31c4abf96f079fd44a6c282eba10f1ee') in 0.002756 seconds
+[Worker0] Imported GUID: c6c6b69eb5ca0564da1d76df375aba02 - Path: Assets/Shaders/CardboardDistortion.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd6d1065ad29dc0b413a6ddb8d7d23d78') in 0.0043936 seconds
+[Worker2] Imported GUID: a4b23776a3150a74ea5ad6271a3d8f15 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/LogHistogram.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6f454e0d7449178f2dcdea85287a8f07') in 0.0035573 seconds
+[Worker1] Imported GUID: 7a051dbda2d7bc447bee412427cd311e - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/LensDirt/LensDirt03.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '81b9eea7ea958dac0b06cf5098c7f7f7') in 0.023493 seconds
+[Worker2] Imported GUID: 817a98c8f709269458e50b65910ed4bc - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FastApproximateAntialiasing.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b8489a8540e2fabebec93598f4dc1e80') in 0.003846 seconds
+[Worker0] Imported GUID: f6439b54b28f3884eb67579dec0b6f21 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_14.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6bad8b54017b747b12e2f950fce3d30f') in 0.0092658 seconds
+Worker ready: AssetImportWorkerHW3 3
+Asset Pipeline Refresh (id=f55b08557fb2aa84d8d6006056b98eec): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 2.74 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.471 seconds
+Domain Reload Profiling: 2145ms
+	BeginReloadAssembly (464ms)
+		DisableScriptedObjects (100ms)
+		CreateAndSetChildDomain (211ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (107ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (1472ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (259ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (715ms)
+No restricted APIs configured; Validation skipped.
+Checking 2 assemblies for restricted APIs found 0 usage(s) in 6 ms
+Refreshing native plugins compatible for Editor in 3.97 ms, found 6 plugins.
+
+Asset Pipeline Refresh (id=c14a29f04b7f38847b6db6c9b067906a): Total: 2.589 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1554 ms
+		Asset DB Callback time: managed=254 ms, native=72 ms
+		Scripting: domain reloads=1, domain reload time=706 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=489, non-scripts=489
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.475ms
+	ApplyChangesToAssetFolders: 0.187ms
+	Collect global state as custom dependencies: 0.903ms
+	ProcessAssetsWithTransientArtifactChanges: 27.706ms
+	CategorizeAssets: 5.512ms
+	CompileScripts: 2.240ms
+	ImportOutOfDateAssets: 1483.609ms (1479.815ms without children)
+		CollectScriptTypesHashes: 0.379ms
+		ReloadNativeAssets: 0.416ms
+		UnloadImportedAssets: 2.734ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.144ms
+		ImportSchedulerStart: 0.491ms
+	PostProcessAllAssets: 315.446ms
+		PostProcessCallbackCreateDeferredMaterials 4.481ms
+		ShaderAssetModifiedCallback 2.280ms
+		AssemblyValidation.PostprocessAllAssets 2.039ms
+		RaytracingShaderImportPostprocess 1.931ms
+		ComputeShaderImportPostprocess 1.621ms
+		SpeedTreeImporter.PostprocessAllAssets 1.385ms
+		XRBuildSystem.XRAssetImported 1.070ms
+		BlockShaderImporter.PostprocessAllAssets 0.860ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.487ms
+		MonoPostProcessAllAssets: 248.741ms
+			SyncVS.PostprocessSyncProject 174.759ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 11.820ms
+			AssetPostprocessor.OnPostprocessAllAssets 8.793ms
+			AssetCallbacks.OnPostprocessAllAssets 6.782ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.750ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 5.687ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 5.680ms
+			AssetChangedListener.OnPostprocessAllAssets 4.136ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 3.720ms
+			CubeLutAssetImporter.OnPostprocessAllAssets 2.047ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.349ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.303ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.548ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.410ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.352ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.292ms
+			AssetEvents.OnPostprocessAllAssets 0.291ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.288ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.255ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.236ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.225ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.142ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.139ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.138ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.134ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.119ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.093ms
+	PostAssetChangesProfiler: 11.098ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.050ms
+	UnloadStreamsBegin: 1.109ms
+	PersistCurrentRevisions: 0.050ms
+	GenerateScriptTypeHashes: 1.346ms
+	GenerateScriptTypeSerializationHashes: 2.555ms
+	Untracked: 725.821ms
+
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Display
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Input
+[Subsystems] OpenXR XR Plugin successfully registered Provider for OpenXR Display
+Loading OpenXR loader library at path: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be\RuntimeLoaders\windows\x64\openxr_loader.dll
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:LoadOpenXRSymbols () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:572)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:InitializeInternal () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:254)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:224)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRManagerSettings.cs:177)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:154)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:112)
+
+(Filename: ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs Line: 572)
+
+[Subsystems] Loading plugin UnityOpenXR for subsystem OpenXR Display...
+[XR] [11964] [10:00:53.243][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:00:53.245][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:00:53.246][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:00:53.247][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:00:53.248][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:00:53.248][Info   ] Available Layers: (0)
+[XR] [11964] [10:00:53.250][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Failed to initialize subsystem OpenXR Display [error: 1]
+[XR] [11964] [10:00:53.252][Error  ] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED
+[XR] [11964] [10:00:53.253][Info   ] 
+
+==== Start Unity OpenXR Diagnostic Report ====
+
+
+[XR] [11964] [10:00:53.253][Info   ] ==== Report Reason: System Shutdown ====
+
+
+[XR] [11964] [10:00:53.253][Info   ] ==== OpenXR Settings ====
+[XR] [11964] [10:00:53.253][Info   ] 
+[XR] [11964] [10:00:53.253][Info   ] Symmetric Projection: False
+[XR] [11964] [10:00:53.253][Info   ] Stereo Rendering Mode: SinglePassInstanced
+[XR] [11964] [10:00:53.253][Info   ] Latency Optimization: PrioritizeRendering
+[XR] [11964] [10:00:53.253][Info   ] Color Submission Modes: kRenderTextureFormatGroup8888
+[XR] [11964] [10:00:53.253][Info   ] Depth Submission Mode: None
+[XR] [11964] [10:00:53.253][Info   ] Space Warp Motion Vector Texture Format: RGBA16f
+[XR] [11964] [10:00:53.253][Info   ] Optimize Buffer Discards: False
+[XR] [11964] [10:00:53.253][Info   ] Multiview Render Regions Optimization Mode: None
+[XR] [11964] [10:00:53.253][Info   ] Use OpenXR Predicted Time: True
+[XR] [11964] [10:00:53.253][Info   ] Foveated Rendering API: SRPFoveation
+[XR] [11964] [10:00:53.253][Info   ] 
+[XR] [11964] [10:00:53.253][Info   ] ==== OpenXR Provider Info ====
+[XR] [11964] [10:00:53.253][Info   ] 
+[XR] [11964] [10:00:53.253][Info   ] Provider Version: ecb5f4e-dirty
+[XR] [11964] [10:00:53.253][Info   ] App: Teleoperacion Robot VR #3118937138
+[XR] [11964] [10:00:53.253][Info   ] Engine: 6000.6.2f1 #90186753
+[XR] [11964] [10:00:53.253][Info   ] 
+[XR] [11964] [10:00:53.253][Info   ] ==== OpenXR Runtime Info ====
+[XR] [11964] [10:00:53.253][Info   ] 
+[XR] [11964] [10:00:53.253][Info   ] Available Layers: (0)
+[XR] [11964] [10:00:53.253][Info   ] 
+[XR] [11964] [10:00:53.253][Info   ] ==== Last 20 non-XR_SUCCESS returns ====
+[XR] [11964] [10:00:53.253][Info   ] [FAILURE] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE (5x)
+[XR] [11964] [10:00:53.253][Info   ] [FAILURE] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE (1x)
+[XR] [11964] [10:00:53.253][Info   ] [FAILURE] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED (1x)
+[XR] [11964] [10:00:53.253][Info   ] 
+[XR] [11964] [10:00:53.253][Info   ] ==== Last 20 Events ====
+[XR] [11964] [10:00:53.253][Info   ] 
+
+==== End Unity OpenXR Diagnostic Report ====
+
+
+[PhoneStreamer] Abre en Safari del iPhone: http://10.16.176.172:8765
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PhoneStreamer:OnEnable () (at Assets/Scripts/PhoneStreamer.cs:99)
+
+(Filename: Assets/Scripts/PhoneStreamer.cs Line: 99)
+
+[TeleopMetrics] Guardando resultados en C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Resultados
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TeleopMetrics:Awake () (at Assets/Scripts/TeleopMetrics.cs:47)
+
+(Filename: Assets/Scripts/TeleopMetrics.cs Line: 47)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            9.199 ms
+	Integration:            121.919 ms
+	Integration of assets:  0.106 ms
+	Thread Wait Time:       0.040 ms
+	Total Operation Time:   131.264 ms
+[Licensing::Client] Successfully resolved entitlement details
+TrimDiskCacheJob: Current cache size 0mb
+Scanning for USB devices : 4.496ms
+Scanning for USB devices : 4.565ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.571 ms
+	Integration:            20.788 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.110 ms
+	Total Operation Time:   27.476 ms
+Unloading 1347 unused Assets / (0.7 MB). Loaded Objects now: 5200.
+Memory consumption went from 495.3 MB to 494.6 MB.
+Total: 12.449700 ms (FindLiveObjects: 0.784100 ms CreateObjectMapping: 0.177100 ms MarkObjects: 10.940900 ms  DeleteObjects: 0.348600 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=2807cfa076369c146882d00df5a89660): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=cfef1ac0e5fc950428c67384e68ce511): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=5b2a2c339d7e60e48b074f76b5c3e369): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=0551d73c6c312e24ab9a451a57201425): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 15.92 ms, found 6 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.421 seconds
+Domain Reload Profiling: 2093ms
+	BeginReloadAssembly (440ms)
+		DisableScriptedObjects (94ms)
+		CreateAndSetChildDomain (189ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (122ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (1422ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (95ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (700ms)
+
+Asset Pipeline Refresh (id=111a856542069934dbd1b7b35f7b9ca1): Total: 2.301 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1497 ms
+		Asset DB Callback time: managed=17 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=782 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=489, non-scripts=489
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.520ms
+	ApplyChangesToAssetFolders: 0.190ms
+	Collect global state as custom dependencies: 0.804ms
+	ProcessAssetsWithTransientArtifactChanges: 0.061ms
+	CategorizeAssets: 5.529ms
+	CompileScripts: 2.271ms
+	ImportOutOfDateAssets: 1445.544ms (1444.463ms without children)
+		CollectScriptTypesHashes: 0.051ms
+		ReloadNativeAssets: 0.423ms
+		UnloadImportedAssets: 0.150ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.141ms
+		ImportSchedulerStart: 0.360ms
+	PostProcessAllAssets: 17.794ms
+		MonoPostProcessAllAssets: 17.790ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 11.820ms
+			AssetPostprocessor.OnPostprocessAllAssets 8.793ms
+			AssetCallbacks.OnPostprocessAllAssets 6.782ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 5.687ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.072ms
+			AssetChangedListener.OnPostprocessAllAssets 4.136ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 3.720ms
+			SyncVS.PostprocessSyncProject 3.063ms
+			CubeLutAssetImporter.OnPostprocessAllAssets 2.047ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.303ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.731ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.548ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.352ms
+			AssetEvents.OnPostprocessAllAssets 0.291ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.288ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.279ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.264ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.250ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.236ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.236ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.225ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.138ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.136ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.135ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.134ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.093ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.074ms
+	GenerateScriptTypeHashes: 1.001ms
+	GenerateScriptTypeSerializationHashes: 2.002ms
+	Untracked: 808.954ms
+
+Refreshing native plugins compatible for Editor in 3.15 ms, found 6 plugins.
+Loading OpenXR loader library at path: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be\RuntimeLoaders\windows\x64\openxr_loader.dll
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:LoadOpenXRSymbols () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:572)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:InitializeInternal () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:254)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:224)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRManagerSettings.cs:177)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:154)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:112)
+
+(Filename: ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs Line: 572)
+
+[Subsystems] Loading plugin UnityOpenXR for subsystem OpenXR Display...
+[XR] [11964] [10:13:42.088][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:13:42.091][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:13:42.092][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:13:42.094][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:13:42.095][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:13:42.095][Info   ] Available Layers: (0)
+[XR] [11964] [10:13:42.097][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Failed to initialize subsystem OpenXR Display [error: 1]
+[XR] [11964] [10:13:42.098][Error  ] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED
+[XR] [11964] [10:13:42.099][Info   ] 
+
+==== Start Unity OpenXR Diagnostic Report ====
+
+
+[XR] [11964] [10:13:42.099][Info   ] ==== Report Reason: System Shutdown ====
+
+
+[XR] [11964] [10:13:42.099][Info   ] ==== OpenXR Settings ====
+[XR] [11964] [10:13:42.099][Info   ] 
+[XR] [11964] [10:13:42.099][Info   ] Symmetric Projection: False
+[XR] [11964] [10:13:42.099][Info   ] Stereo Rendering Mode: SinglePassInstanced
+[XR] [11964] [10:13:42.099][Info   ] Latency Optimization: PrioritizeRendering
+[XR] [11964] [10:13:42.099][Info   ] Color Submission Modes: kRenderTextureFormatGroup8888
+[XR] [11964] [10:13:42.099][Info   ] Depth Submission Mode: None
+[XR] [11964] [10:13:42.099][Info   ] Space Warp Motion Vector Texture Format: RGBA16f
+[XR] [11964] [10:13:42.099][Info   ] Optimize Buffer Discards: False
+[XR] [11964] [10:13:42.099][Info   ] Multiview Render Regions Optimization Mode: None
+[XR] [11964] [10:13:42.099][Info   ] Use OpenXR Predicted Time: True
+[XR] [11964] [10:13:42.099][Info   ] Foveated Rendering API: SRPFoveation
+[XR] [11964] [10:13:42.099][Info   ] 
+[XR] [11964] [10:13:42.099][Info   ] ==== OpenXR Provider Info ====
+[XR] [11964] [10:13:42.099][Info   ] 
+[XR] [11964] [10:13:42.099][Info   ] Provider Version: ecb5f4e-dirty
+[XR] [11964] [10:13:42.099][Info   ] App: Teleoperacion Robot VR #3118937138
+[XR] [11964] [10:13:42.099][Info   ] Engine: 6000.6.2f1 #90186753
+[XR] [11964] [10:13:42.099][Info   ] 
+[XR] [11964] [10:13:42.099][Info   ] ==== OpenXR Runtime Info ====
+[XR] [11964] [10:13:42.099][Info   ] 
+[XR] [11964] [10:13:42.099][Info   ] Available Layers: (0)
+[XR] [11964] [10:13:42.099][Info   ] 
+[XR] [11964] [10:13:42.099][Info   ] ==== Last 20 non-XR_SUCCESS returns ====
+[XR] [11964] [10:13:42.099][Info   ] [FAILURE] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE (5x)
+[XR] [11964] [10:13:42.099][Info   ] [FAILURE] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE (1x)
+[XR] [11964] [10:13:42.099][Info   ] [FAILURE] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED (1x)
+[XR] [11964] [10:13:42.099][Info   ] 
+[XR] [11964] [10:13:42.099][Info   ] ==== Last 20 Events ====
+[XR] [11964] [10:13:42.099][Info   ] 
+
+==== End Unity OpenXR Diagnostic Report ====
+
+
+[PhoneStreamer] Abre en Safari del iPhone: http://10.16.176.172:8765
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PhoneStreamer:OnEnable () (at Assets/Scripts/PhoneStreamer.cs:99)
+
+(Filename: Assets/Scripts/PhoneStreamer.cs Line: 99)
+
+[TeleopMetrics] Guardando resultados en C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Resultados
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TeleopMetrics:Awake () (at Assets/Scripts/TeleopMetrics.cs:47)
+
+(Filename: Assets/Scripts/TeleopMetrics.cs Line: 47)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.197 ms
+	Integration:            128.585 ms
+	Integration of assets:  0.015 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   134.826 ms
+[Licensing::Client] Successfully resolved entitlement details
+[HapticLink] Calibrado: offset pitch=2.1° roll=-0.7°
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HapticLink:Calibrate () (at Assets/Scripts/HapticLink.cs:186)
+HapticLink:Update () (at Assets/Scripts/HapticLink.cs:152)
+
+(Filename: Assets/Scripts/HapticLink.cs Line: 186)
+
+Scanning for USB devices : 5.091ms
+Scanning for USB devices : 5.474ms
+Scanning for USB devices : 5.580ms
+Scanning for USB devices : 5.332ms
+Scanning for USB devices : 2.572ms
+Scanning for USB devices : 3.597ms
+Scanning for USB devices : 3.700ms
+Scanning for USB devices : 3.617ms
+Scanning for USB devices : 3.066ms
+Scanning for USB devices : 3.124ms
+Scanning for USB devices : 3.504ms
+Scanning for USB devices : 3.036ms
+Scanning for USB devices : 3.487ms
+Scanning for USB devices : 56.438ms
+Scanning for USB devices : 17.228ms
+Scanning for USB devices : 8.236ms
+Scanning for USB devices : 8.075ms
+Scanning for USB devices : 7.519ms
+Scanning for USB devices : 6.477ms
+Scanning for USB devices : 2.435ms
+Scanning for USB devices : 6.405ms
+Asset Pipeline Refresh (id=1385dbe49274ad64696b34653888cf01): Total: 0.003 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.793 ms
+	Integration:            19.464 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   26.286 ms
+Unloading 19 unused Assets / (409.7 KB). Loaded Objects now: 5203.
+Memory consumption went from 502.0 MB to 501.6 MB.
+Total: 12.470300 ms (FindLiveObjects: 0.647900 ms CreateObjectMapping: 0.066500 ms MarkObjects: 11.336200 ms  DeleteObjects: 0.225100 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 3.77 ms, found 6 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.453 seconds
+Domain Reload Profiling: 2129ms
+	BeginReloadAssembly (457ms)
+		DisableScriptedObjects (102ms)
+		CreateAndSetChildDomain (201ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (113ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (3ms)
+	FinalizeReload (1454ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (203ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (724ms)
+
+Asset Pipeline Refresh (id=cacfff4ee57c37049b7801733995e77a): Total: 2.246 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1511 ms
+		Asset DB Callback time: managed=19 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=713 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=489, non-scripts=489
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.542ms
+	ApplyChangesToAssetFolders: 0.202ms
+	Collect global state as custom dependencies: 1.418ms
+	ProcessAssetsWithTransientArtifactChanges: 0.073ms
+	CategorizeAssets: 5.608ms
+	CompileScripts: 2.157ms
+	ImportOutOfDateAssets: 1464.552ms (1463.188ms without children)
+		ReloadNativeAssets: 0.435ms
+		UnloadImportedAssets: 0.242ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.132ms
+		ImportSchedulerStart: 0.548ms
+	PostProcessAllAssets: 19.449ms
+		MonoPostProcessAllAssets: 19.444ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 11.820ms
+			AssetPostprocessor.OnPostprocessAllAssets 8.793ms
+			AssetCallbacks.OnPostprocessAllAssets 6.782ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 5.687ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.155ms
+			AssetChangedListener.OnPostprocessAllAssets 4.136ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 3.720ms
+			SyncVS.PostprocessSyncProject 3.559ms
+			CubeLutAssetImporter.OnPostprocessAllAssets 2.047ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.303ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.714ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.548ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.352ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.331ms
+			AssetEvents.OnPostprocessAllAssets 0.291ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.288ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.273ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.254ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.236ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.233ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.225ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.144ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.138ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.134ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.131ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.093ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.074ms
+	GenerateScriptTypeHashes: 0.963ms
+	GenerateScriptTypeSerializationHashes: 1.916ms
+	Untracked: 734.091ms
+
+Refreshing native plugins compatible for Editor in 4.01 ms, found 6 plugins.
+Loading OpenXR loader library at path: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be\RuntimeLoaders\windows\x64\openxr_loader.dll
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:LoadOpenXRSymbols () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:572)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:InitializeInternal () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:254)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:224)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRManagerSettings.cs:177)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:154)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:112)
+
+(Filename: ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs Line: 572)
+
+[Subsystems] Loading plugin UnityOpenXR for subsystem OpenXR Display...
+[XR] [11964] [10:28:55.197][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:28:55.199][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:28:55.201][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:28:55.203][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:28:55.205][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:28:55.205][Info   ] Available Layers: (0)
+[XR] [11964] [10:28:55.207][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Failed to initialize subsystem OpenXR Display [error: 1]
+[XR] [11964] [10:28:55.208][Error  ] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED
+[XR] [11964] [10:28:55.209][Info   ] 
+
+==== Start Unity OpenXR Diagnostic Report ====
+
+
+[XR] [11964] [10:28:55.209][Info   ] ==== Report Reason: System Shutdown ====
+
+
+[XR] [11964] [10:28:55.209][Info   ] ==== OpenXR Settings ====
+[XR] [11964] [10:28:55.209][Info   ] 
+[XR] [11964] [10:28:55.209][Info   ] Symmetric Projection: False
+[XR] [11964] [10:28:55.209][Info   ] Stereo Rendering Mode: SinglePassInstanced
+[XR] [11964] [10:28:55.209][Info   ] Latency Optimization: PrioritizeRendering
+[XR] [11964] [10:28:55.209][Info   ] Color Submission Modes: kRenderTextureFormatGroup8888
+[XR] [11964] [10:28:55.209][Info   ] Depth Submission Mode: None
+[XR] [11964] [10:28:55.209][Info   ] Space Warp Motion Vector Texture Format: RGBA16f
+[XR] [11964] [10:28:55.209][Info   ] Optimize Buffer Discards: False
+[XR] [11964] [10:28:55.209][Info   ] Multiview Render Regions Optimization Mode: None
+[XR] [11964] [10:28:55.209][Info   ] Use OpenXR Predicted Time: True
+[XR] [11964] [10:28:55.209][Info   ] Foveated Rendering API: SRPFoveation
+[XR] [11964] [10:28:55.209][Info   ] 
+[XR] [11964] [10:28:55.209][Info   ] ==== OpenXR Provider Info ====
+[XR] [11964] [10:28:55.209][Info   ] 
+[XR] [11964] [10:28:55.209][Info   ] Provider Version: ecb5f4e-dirty
+[XR] [11964] [10:28:55.209][Info   ] App: Teleoperacion Robot VR #3118937138
+[XR] [11964] [10:28:55.209][Info   ] Engine: 6000.6.2f1 #90186753
+[XR] [11964] [10:28:55.209][Info   ] 
+[XR] [11964] [10:28:55.209][Info   ] ==== OpenXR Runtime Info ====
+[XR] [11964] [10:28:55.209][Info   ] 
+[XR] [11964] [10:28:55.209][Info   ] Available Layers: (0)
+[XR] [11964] [10:28:55.209][Info   ] 
+[XR] [11964] [10:28:55.209][Info   ] ==== Last 20 non-XR_SUCCESS returns ====
+[XR] [11964] [10:28:55.209][Info   ] [FAILURE] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE (5x)
+[XR] [11964] [10:28:55.209][Info   ] [FAILURE] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE (1x)
+[XR] [11964] [10:28:55.209][Info   ] [FAILURE] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED (1x)
+[XR] [11964] [10:28:55.209][Info   ] 
+[XR] [11964] [10:28:55.209][Info   ] ==== Last 20 Events ====
+[XR] [11964] [10:28:55.209][Info   ] 
+
+==== End Unity OpenXR Diagnostic Report ====
+
+
+[PhoneStreamer] Abre en Safari del iPhone: http://10.16.176.172:8765
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PhoneStreamer:OnEnable () (at Assets/Scripts/PhoneStreamer.cs:99)
+
+(Filename: Assets/Scripts/PhoneStreamer.cs Line: 99)
+
+[TeleopMetrics] Guardando resultados en C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Resultados
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TeleopMetrics:Awake () (at Assets/Scripts/TeleopMetrics.cs:47)
+
+(Filename: Assets/Scripts/TeleopMetrics.cs Line: 47)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            8.396 ms
+	Integration:            140.636 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   149.058 ms
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=ce281cec2027fbd4294c8c4294818d29): Total: 0.003 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            5.703 ms
+	Integration:            17.355 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.078 ms
+	Total Operation Time:   23.140 ms
+Unloading 19 unused Assets / (423.5 KB). Loaded Objects now: 5206.
+Memory consumption went from 0.50 GB to 0.50 GB.
+Total: 10.092600 ms (FindLiveObjects: 0.758000 ms CreateObjectMapping: 0.114200 ms MarkObjects: 9.024000 ms  DeleteObjects: 0.036900 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 5.942ms
+Scanning for USB devices : 6.610ms
+Asset Pipeline Refresh (id=0922b7183802bc64bab117c4e2dcd13f): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 4.47 ms, found 6 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.415 seconds
+Domain Reload Profiling: 2092ms
+	BeginReloadAssembly (450ms)
+		DisableScriptedObjects (91ms)
+		CreateAndSetChildDomain (194ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (118ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (1415ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (705ms)
+
+Asset Pipeline Refresh (id=16e0769d20cefb445abb714be36c9eac): Total: 2.207 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1469 ms
+		Asset DB Callback time: managed=18 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=717 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=489, non-scripts=489
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.533ms
+	ApplyChangesToAssetFolders: 0.204ms
+	Collect global state as custom dependencies: 0.838ms
+	ProcessAssetsWithTransientArtifactChanges: 0.084ms
+	CategorizeAssets: 5.861ms
+	CompileScripts: 2.060ms
+	ImportOutOfDateAssets: 1425.291ms (1424.074ms without children)
+		ReloadNativeAssets: 0.409ms
+		UnloadImportedAssets: 0.137ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.121ms
+		ImportSchedulerStart: 0.543ms
+	PostProcessAllAssets: 18.047ms
+		MonoPostProcessAllAssets: 18.043ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 11.820ms
+			AssetPostprocessor.OnPostprocessAllAssets 8.793ms
+			AssetCallbacks.OnPostprocessAllAssets 6.782ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 5.687ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.628ms
+			AssetChangedListener.OnPostprocessAllAssets 4.136ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 3.720ms
+			SyncVS.PostprocessSyncProject 2.798ms
+			CubeLutAssetImporter.OnPostprocessAllAssets 2.047ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.303ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.690ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.548ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.352ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.342ms
+			AssetEvents.OnPostprocessAllAssets 0.291ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.288ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.254ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.252ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.236ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.225ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.215ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.142ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.138ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.134ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.134ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.093ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.080ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.067ms
+	GenerateScriptTypeHashes: 0.956ms
+	GenerateScriptTypeSerializationHashes: 1.937ms
+	Untracked: 737.078ms
+
+Refreshing native plugins compatible for Editor in 3.00 ms, found 6 plugins.
+Loading OpenXR loader library at path: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be\RuntimeLoaders\windows\x64\openxr_loader.dll
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:LoadOpenXRSymbols () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:572)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:InitializeInternal () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:254)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:224)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRManagerSettings.cs:177)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:154)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:112)
+
+(Filename: ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs Line: 572)
+
+[Subsystems] Loading plugin UnityOpenXR for subsystem OpenXR Display...
+[XR] [11964] [10:43:28.669][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:43:28.670][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:43:28.671][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:43:28.672][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:43:28.673][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [10:43:28.673][Info   ] Available Layers: (0)
+[XR] [11964] [10:43:28.674][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Failed to initialize subsystem OpenXR Display [error: 1]
+[XR] [11964] [10:43:28.676][Error  ] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED
+[XR] [11964] [10:43:28.676][Info   ] 
+
+==== Start Unity OpenXR Diagnostic Report ====
+
+
+[XR] [11964] [10:43:28.676][Info   ] ==== Report Reason: System Shutdown ====
+
+
+[XR] [11964] [10:43:28.676][Info   ] ==== OpenXR Settings ====
+[XR] [11964] [10:43:28.676][Info   ] 
+[XR] [11964] [10:43:28.676][Info   ] Symmetric Projection: False
+[XR] [11964] [10:43:28.676][Info   ] Stereo Rendering Mode: SinglePassInstanced
+[XR] [11964] [10:43:28.676][Info   ] Latency Optimization: PrioritizeRendering
+[XR] [11964] [10:43:28.676][Info   ] Color Submission Modes: kRenderTextureFormatGroup8888
+[XR] [11964] [10:43:28.676][Info   ] Depth Submission Mode: None
+[XR] [11964] [10:43:28.676][Info   ] Space Warp Motion Vector Texture Format: RGBA16f
+[XR] [11964] [10:43:28.676][Info   ] Optimize Buffer Discards: False
+[XR] [11964] [10:43:28.676][Info   ] Multiview Render Regions Optimization Mode: None
+[XR] [11964] [10:43:28.676][Info   ] Use OpenXR Predicted Time: True
+[XR] [11964] [10:43:28.676][Info   ] Foveated Rendering API: SRPFoveation
+[XR] [11964] [10:43:28.676][Info   ] 
+[XR] [11964] [10:43:28.676][Info   ] ==== OpenXR Provider Info ====
+[XR] [11964] [10:43:28.676][Info   ] 
+[XR] [11964] [10:43:28.676][Info   ] Provider Version: ecb5f4e-dirty
+[XR] [11964] [10:43:28.676][Info   ] App: Teleoperacion Robot VR #3118937138
+[XR] [11964] [10:43:28.676][Info   ] Engine: 6000.6.2f1 #90186753
+[XR] [11964] [10:43:28.676][Info   ] 
+[XR] [11964] [10:43:28.676][Info   ] ==== OpenXR Runtime Info ====
+[XR] [11964] [10:43:28.676][Info   ] 
+[XR] [11964] [10:43:28.676][Info   ] Available Layers: (0)
+[XR] [11964] [10:43:28.676][Info   ] 
+[XR] [11964] [10:43:28.676][Info   ] ==== Last 20 non-XR_SUCCESS returns ====
+[XR] [11964] [10:43:28.676][Info   ] [FAILURE] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE (5x)
+[XR] [11964] [10:43:28.676][Info   ] [FAILURE] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE (1x)
+[XR] [11964] [10:43:28.676][Info   ] [FAILURE] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED (1x)
+[XR] [11964] [10:43:28.676][Info   ] 
+[XR] [11964] [10:43:28.676][Info   ] ==== Last 20 Events ====
+[XR] [11964] [10:43:28.676][Info   ] 
+
+==== End Unity OpenXR Diagnostic Report ====
+
+
+[PhoneStreamer] Abre en Safari del iPhone: http://10.16.176.172:8765
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PhoneStreamer:OnEnable () (at Assets/Scripts/PhoneStreamer.cs:99)
+
+(Filename: Assets/Scripts/PhoneStreamer.cs Line: 99)
+
+[TeleopMetrics] Guardando resultados en C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Resultados
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TeleopMetrics:Awake () (at Assets/Scripts/TeleopMetrics.cs:47)
+
+(Filename: Assets/Scripts/TeleopMetrics.cs Line: 47)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            6.303 ms
+	Integration:            106.170 ms
+	Integration of assets:  0.010 ms
+	Thread Wait Time:       0.030 ms
+	Total Operation Time:   112.513 ms
+[Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: b1cf9232591a95344a023d00b351a677 - Path: Assets/Generated/Materials/DistorsionCardboard.mat' with importer (NativeFormatImporter)
+Imported 'GUID: b1cf9232591a95344a023d00b351a677' -> (Import Result ID: '8a1bc1a595ba38dedf7cbccc91991513') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=7c602f43fe0967fe8bd4c75a9a5ba3bd DependenciesID=f4f80e5e5fc645ef70659f635ad19c47 StaticDependenciesID=7c205b0589eb94e33bb3ecef7df18eca 
+Refreshing native plugins compatible for Editor in 2.89 ms, found 6 plugins.
+Asset Pipeline Refresh (id=91c36842ad2e6484f9d862538f88a48a): Total: 0.048 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[HapticLink] Calibrado: offset pitch=1.7° roll=-0.6°
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HapticLink:Calibrate () (at Assets/Scripts/HapticLink.cs:186)
+HapticLink:Update () (at Assets/Scripts/HapticLink.cs:152)
+
+(Filename: Assets/Scripts/HapticLink.cs Line: 186)
+
+[HapticLink] Calibrado: offset pitch=4.0° roll=-0.8°
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HapticLink:Calibrate () (at Assets/Scripts/HapticLink.cs:186)
+HapticLink:Update () (at Assets/Scripts/HapticLink.cs:152)
+
+(Filename: Assets/Scripts/HapticLink.cs Line: 186)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            12.907 ms
+	Integration:            34.960 ms
+	Integration of assets:  0.016 ms
+	Thread Wait Time:       0.105 ms
+	Total Operation Time:   47.989 ms
+Unloading 19 unused Assets / (429.0 KB). Loaded Objects now: 5209.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 20.928900 ms (FindLiveObjects: 0.992300 ms CreateObjectMapping: 0.139300 ms MarkObjects: 19.253300 ms  DeleteObjects: 0.170700 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 42.095ms
+Scanning for USB devices : 59.999ms
+Asset Pipeline Refresh (id=526246a78cbc1884bb658f98a76d1ae7): Total: 0.014 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Successfully resolved entitlement details
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 10.94 ms, found 6 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.459 seconds
+Domain Reload Profiling: 2158ms
+	BeginReloadAssembly (461ms)
+		DisableScriptedObjects (95ms)
+		CreateAndSetChildDomain (209ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (129ms)
+		TypeCache.Refresh (4ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (1460ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (713ms)
+
+Asset Pipeline Refresh (id=da661b735beaa8347a9612b365a3f82a): Total: 2.367 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1540 ms
+		Asset DB Callback time: managed=18 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=805 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=489, non-scripts=489
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.708ms
+	ApplyChangesToAssetFolders: 0.198ms
+	Collect global state as custom dependencies: 0.877ms
+	ProcessAssetsWithTransientArtifactChanges: 0.076ms
+	CategorizeAssets: 5.488ms
+	CompileScripts: 2.139ms
+	ImportOutOfDateAssets: 1479.595ms (1478.003ms without children)
+		CollectScriptTypesHashes: 0.052ms
+		ReloadNativeAssets: 0.466ms
+		UnloadImportedAssets: 0.159ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.127ms
+		ImportSchedulerStart: 0.833ms
+	PostProcessAllAssets: 18.271ms
+		MonoPostProcessAllAssets: 18.267ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.887ms
+			AssetChangedListener.OnPostprocessAllAssets 5.486ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.259ms
+			AssetCallbacks.OnPostprocessAllAssets 4.195ms
+			AssetPostprocessor.OnPostprocessAllAssets 4.033ms
+			SyncVS.PostprocessSyncProject 3.027ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.068ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.743ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.539ms
+			CubeLutAssetImporter.OnPostprocessAllAssets 0.391ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.354ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.289ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.275ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.274ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.268ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.265ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.259ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.250ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.237ms
+			AssetEvents.OnPostprocessAllAssets 0.218ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.210ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.156ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.133ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.133ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.097ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.079ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.070ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.057ms
+	UnloadStreamsBegin: 1.505ms
+	GenerateScriptTypeHashes: 0.977ms
+	GenerateScriptTypeSerializationHashes: 1.977ms
+	Untracked: 841.860ms
+
+Refreshing native plugins compatible for Editor in 2.96 ms, found 6 plugins.
+Loading OpenXR loader library at path: C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be\RuntimeLoaders\windows\x64\openxr_loader.dll
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:LoadOpenXRSymbols () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:572)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:InitializeInternal () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:254)
+UnityEngine.XR.OpenXR.OpenXRLoaderBase:Initialize () (at ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs:224)
+UnityEngine.XR.Management.XRManagerSettings:InitializeLoaderSync () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRManagerSettings.cs:177)
+UnityEngine.XR.Management.XRGeneralSettings:InitXRSDK () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:154)
+UnityEngine.XR.Management.XRGeneralSettings:AttemptInitializeXRSDKOnLoad () (at ./Library/PackageCache/com.unity.xr.management@2ad85c7dd480/Runtime/XRGeneralSettings.cs:112)
+
+(Filename: ./Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/OpenXRLoader.cs Line: 572)
+
+[Subsystems] Loading plugin UnityOpenXR for subsystem OpenXR Display...
+[XR] [11964] [11:08:25.946][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [11:08:25.947][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [11:08:25.947][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [11:08:25.949][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [11:08:25.950][Error  ] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE
+[XR] [11964] [11:08:25.950][Info   ] Available Layers: (0)
+[XR] [11964] [11:08:25.951][Error  ] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE
+[Subsystems] Failed to initialize subsystem OpenXR Display [error: 1]
+[XR] [11964] [11:08:25.952][Error  ] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED
+[XR] [11964] [11:08:25.952][Info   ] 
+
+==== Start Unity OpenXR Diagnostic Report ====
+
+
+[XR] [11964] [11:08:25.952][Info   ] ==== Report Reason: System Shutdown ====
+
+
+[XR] [11964] [11:08:25.952][Info   ] ==== OpenXR Settings ====
+[XR] [11964] [11:08:25.952][Info   ] 
+[XR] [11964] [11:08:25.952][Info   ] Symmetric Projection: False
+[XR] [11964] [11:08:25.952][Info   ] Stereo Rendering Mode: SinglePassInstanced
+[XR] [11964] [11:08:25.952][Info   ] Latency Optimization: PrioritizeRendering
+[XR] [11964] [11:08:25.952][Info   ] Color Submission Modes: kRenderTextureFormatGroup8888
+[XR] [11964] [11:08:25.952][Info   ] Depth Submission Mode: None
+[XR] [11964] [11:08:25.952][Info   ] Space Warp Motion Vector Texture Format: RGBA16f
+[XR] [11964] [11:08:25.952][Info   ] Optimize Buffer Discards: False
+[XR] [11964] [11:08:25.952][Info   ] Multiview Render Regions Optimization Mode: None
+[XR] [11964] [11:08:25.952][Info   ] Use OpenXR Predicted Time: True
+[XR] [11964] [11:08:25.952][Info   ] Foveated Rendering API: SRPFoveation
+[XR] [11964] [11:08:25.953][Info   ] 
+[XR] [11964] [11:08:25.953][Info   ] ==== OpenXR Provider Info ====
+[XR] [11964] [11:08:25.953][Info   ] 
+[XR] [11964] [11:08:25.953][Info   ] Provider Version: ecb5f4e-dirty
+[XR] [11964] [11:08:25.953][Info   ] App: Teleoperacion Robot VR #3118937138
+[XR] [11964] [11:08:25.953][Info   ] Engine: 6000.6.2f1 #90186753
+[XR] [11964] [11:08:25.953][Info   ] 
+[XR] [11964] [11:08:25.953][Info   ] ==== OpenXR Runtime Info ====
+[XR] [11964] [11:08:25.953][Info   ] 
+[XR] [11964] [11:08:25.953][Info   ] Available Layers: (0)
+[XR] [11964] [11:08:25.953][Info   ] 
+[XR] [11964] [11:08:25.953][Info   ] ==== Last 20 non-XR_SUCCESS returns ====
+[XR] [11964] [11:08:25.953][Info   ] [FAILURE] xrEnumerateInstanceExtensionProperties: XR_ERROR_RUNTIME_UNAVAILABLE (5x)
+[XR] [11964] [11:08:25.953][Info   ] [FAILURE] xrCreateInstance: XR_ERROR_RUNTIME_UNAVAILABLE (1x)
+[XR] [11964] [11:08:25.953][Info   ] [FAILURE] xrPollEvent: XR_ERROR_FUNCTION_UNSUPPORTED (1x)
+[XR] [11964] [11:08:25.953][Info   ] 
+[XR] [11964] [11:08:25.953][Info   ] ==== Last 20 Events ====
+[XR] [11964] [11:08:25.953][Info   ] 
+
+==== End Unity OpenXR Diagnostic Report ====
+
+
+[PhoneStreamer] Abre en Safari del iPhone: http://10.16.176.172:8765
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+PhoneStreamer:OnEnable () (at Assets/Scripts/PhoneStreamer.cs:99)
+
+(Filename: Assets/Scripts/PhoneStreamer.cs Line: 99)
+
+[TeleopMetrics] Guardando resultados en C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\Resultados
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TeleopMetrics:Awake () (at Assets/Scripts/TeleopMetrics.cs:47)
+
+(Filename: Assets/Scripts/TeleopMetrics.cs Line: 47)
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            7.845 ms
+	Integration:            117.106 ms
+	Integration of assets:  0.011 ms
+	Thread Wait Time:       0.039 ms
+	Total Operation Time:   125.001 ms
+[Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: b1cf9232591a95344a023d00b351a677 - Path: Assets/Generated/Materials/DistorsionCardboard.mat' with importer (NativeFormatImporter)
+Imported 'GUID: b1cf9232591a95344a023d00b351a677' -> (Import Result ID: 'e937a09857e902de0bc6885fef54ecb9') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=7c602f43fe0967fe8bd4c75a9a5ba3bd DependenciesID=2483dfc1c965e440cde99306e17bd76c StaticDependenciesID=6ff3ebdd267efe26761858ebf187f4d7 
+Refreshing native plugins compatible for Editor in 3.06 ms, found 6 plugins.
+Asset Pipeline Refresh (id=cc185e88abde2c649a286656cbff42d9): Total: 0.050 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[HapticLink] Calibrado: offset pitch=1.7° roll=-0.9°
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HapticLink:Calibrate () (at Assets/Scripts/HapticLink.cs:186)
+HapticLink:Update () (at Assets/Scripts/HapticLink.cs:152)
+
+(Filename: Assets/Scripts/HapticLink.cs Line: 186)
+
+[HapticLink] Calibrado: offset pitch=2.0° roll=-1.2°
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HapticLink:Calibrate () (at Assets/Scripts/HapticLink.cs:186)
+HapticLink:Update () (at Assets/Scripts/HapticLink.cs:152)
+
+(Filename: Assets/Scripts/HapticLink.cs Line: 186)
+
+Scanning for USB devices : 5.564ms
+Scanning for USB devices : 1.726ms
+Scanning for USB devices : 1.694ms
+Scanning for USB devices : 1.958ms
+Scanning for USB devices : 5.114ms
+Scanning for USB devices : 2.653ms
+Scanning for USB devices : 6.158ms
+Scanning for USB devices : 3.572ms
+Scanning for USB devices : 2.741ms
+Scanning for USB devices : 2.069ms
+Scanning for USB devices : 3.092ms
+Scanning for USB devices : 2.360ms
+Scanning for USB devices : 2.047ms
+Scanning for USB devices : 2.137ms
+Scanning for USB devices : 3.203ms
+Scanning for USB devices : 2.904ms
+Scanning for USB devices : 3.014ms
+Scanning for USB devices : 2.324ms
+Scanning for USB devices : 3.043ms
+Asset Pipeline Refresh (id=a9b1c0d2082becf45a25de3e1f62137e): Total: 0.023 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            16.989 ms
+	Integration:            49.593 ms
+	Integration of assets:  0.035 ms
+	Thread Wait Time:       0.028 ms
+	Total Operation Time:   66.646 ms
+Unloading 20 unused Assets / (0.5 MB). Loaded Objects now: 5265.
+Memory consumption went from 0.53 GB to 0.53 GB.
+Total: 32.218700 ms (FindLiveObjects: 1.136600 ms CreateObjectMapping: 0.114300 ms MarkObjects: 28.295500 ms  DeleteObjects: 2.208400 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: b1cf9232591a95344a023d00b351a677 - Path: Assets/Generated/Materials/DistorsionCardboard.mat' with importer (NativeFormatImporter)
+Imported 'GUID: b1cf9232591a95344a023d00b351a677' -> (Import Result ID: '8a1bc1a595ba38dedf7cbccc91991513') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=7c602f43fe0967fe8bd4c75a9a5ba3bd DependenciesID=f4f80e5e5fc645ef70659f635ad19c47 StaticDependenciesID=7c205b0589eb94e33bb3ecef7df18eca 
+Refreshing native plugins compatible for Editor in 5.29 ms, found 6 plugins.
+Asset Pipeline Refresh (id=102b387db095c7349bd0687d3b75d514): Total: 0.068 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: d7836b75bda41d244ba41272c5046364 - Path: Assets/Scenes/Teleoperacion.unity' with importer (DefaultImporter)
+Imported 'GUID: d7836b75bda41d244ba41272c5046364' -> (Import Result ID: 'cb4aed44252a3d0d44c3d9ad666084c8') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=33198ff03eb7016bdac6c95b0fc629b2 DependenciesID=e0be6849dc7862d6e6129a97f9186adf StaticDependenciesID=b64d7899edcc41367a4247c558760086 
+Refreshing native plugins compatible for Editor in 6.01 ms, found 6 plugins.
+Asset Pipeline Refresh (id=ed3ff0cf74dd80f429f6503b668fc9e3): Total: 0.031 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 15306; Successful remaps: 3774
+Serialized file version minimum: 23, current 23
+[LAYOUT] About to save layout C:\Users\alber\OneDrive\Desktop\TeleoperacionVR\TeleoperacionRobotVR\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/alber/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-alber-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-alber channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790957632607,"processId":20316,"allocatedMemory":13233197,"memoryLabels":[{"Default":180604},{"Permanent":15516},{"NewDelete":72265},{"Thread":4216864},{"Manager":34176},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":856281},{"Material":68},{"GfxDevice":148056},{"GfxThread":33792},{"Animation":952},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":113008},{"Input":45280},{"JobScheduler":256},{"TextLib":23254},{"Mono":48},{"ScriptingNativeRuntime":1515480},{"BaseObject":49424},{"Resource":1252},{"Renderer":2376},{"Transform":4685},{"File":7393},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":976689},{"StaticString":3808},{"Utility":2675005},{"Curl":48},{"PoolAlloc":2168},{"AI":80},{"TypeTree":17101},{"ScriptManager":44296},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":8592},{"WebRequest":7040},{"VR":77634},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":3240},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":269750},{"EditorUtility":134056},{"VersionControl":8},{"Undo":931},{"AssetDatabase":1244085},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36917},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12757},{"AssetReference":32},{"IPCStream":32}]}

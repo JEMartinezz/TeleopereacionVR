@@ -1,0 +1,19 @@
+﻿Prueba de colisiones del rover (v = 1.2 m/s durante 3 s contra cada obstáculo)
+obstaculo,tipo,distancia_libre_m,avance_m,penetracion_m,resultado
+Roca_1,Obstaculo,1.28,1.29,0.013,BLOQUEA
+Roca_7,Obstaculo,1.30,1.29,-0.007,BLOQUEA
+Limite_Norte,ParedLimite,1.73,1.72,-0.006,BLOQUEA
+Limite_Sur,ParedLimite,1.73,1.72,-0.006,BLOQUEA
+Limite_Oeste,ParedLimite,1.73,1.72,-0.006,BLOQUEA
+ModuloHabitacional,Obstaculo,2.14,2.20,0.052,BLOQUEA
+CajasSuministros,Obstaculo,1.70,1.75,0.051,BLOQUEA
+TanquesCombustible,Obstaculo,1.33,1.35,0.015,BLOQUEA
+PanelesSolares,Obstaculo,3.48,3.47,-0.006,BLOQUEA
+Limite_Este,ParedLimite,,,,sin acceso libre
+Roca_6,Obstaculo,1.30,1.31,0.003,BLOQUEA
+Roca_5,Obstaculo,1.28,1.27,-0.004,BLOQUEA
+Roca_4,Obstaculo,1.28,1.28,0.005,BLOQUEA
+Roca_3,Obstaculo,1.29,1.30,0.007,BLOQUEA
+Roca_8,Obstaculo,1.30,1.30,-0.001,BLOQUEA
+Roca_2,Obstaculo,1.28,1.27,-0.004,BLOQUEA
+Resumen: 15 bloquean, 0 atraviesan, 1 sin acceso

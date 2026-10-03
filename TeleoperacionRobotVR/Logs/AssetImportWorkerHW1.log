@@ -1,0 +1,1032 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/staging' branch; Version is '6000.6.2f1 (770e33f6875c) revision 7802419'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alber" at "2026-10-02T15:00:26.0172158Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'es' Physical Memory: 16091 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-02T15:00:26Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 25016, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              be70f8fd894942c08ce9113ccaa7c7e2
+  Correlation Id:          9330335f4c121099b58a783519a6ef0f
+  External correlation Id: 4183301001728264541
+  Machine Id:              xPVmXNANFC6HwX10Vks4IgXgcDQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-alber" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-alber-notifications" at "2026-10-02T15:00:26.0727135Z"
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW1
+-projectPath
+C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR
+-logFile
+Logs/AssetImportWorkerHW1.log
+-srvPort
+49614
+-parentPid
+20316
+-analyticsCloudUserId
+4674257262021
+-analyticsLocalProjectId
+af68b40d8400fc14f9643e8c7d14ee95
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+450f34de43f4a574466a1142a7a257c4f6d5ed9d
+-cbmMachineId
+xPVmXNANFC6HwX10Vks4IgXgcDQ=
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR
+C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [25004]  Target information:
+
+Player connection [25004]  * "[IP] 10.16.176.172 [Port] 0 [Flags] 2 [Guid] 2051503142 [EditorId] 2051503142 [Version] 1048832 [Id] WindowsEditor(7,Daniel) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [25004] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25004] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.50 ms, found 6 plugins.
+Initialize engine version: 6000.6.2f1 (770e33f6875c)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/alber/OneDrive/Desktop/TeleoperacionVR/TeleoperacionRobotVR/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:          NVIDIA
+    VRAM:            6002 MB
+    App VRAM Budget: 5234 MB
+    Driver:          32.0.15.8186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674257262021-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.2f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005672 seconds.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.461 seconds
+Domain Reload Profiling: 1049ms
+	BeginReloadAssembly (145ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (350ms)
+		LoadAssemblies (140ms)
+		TypeCache.Refresh (235ms)
+			TypeCache.ScanAssembly (221ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (462ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (181ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 3.05 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 1213ms
+	BeginReloadAssembly (208ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (235ms)
+		TypeCache.Refresh (38ms)
+			TypeCache.ScanAssembly (28ms)
+		AnalyzeDomain (21ms)
+			BuildScriptInfoCaches (19ms)
+	FinalizeReload (623ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (150ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.15 ms, found 6 plugins.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1632 unused Assets / (3.1 MB). Loaded Objects now: 2362.
+Memory consumption went from 206.8 MB to 203.7 MB.
+Total: 6.840600 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.089600 ms MarkObjects: 5.492900 ms  DeleteObjects: 0.758900 ms)
+
+Curl error 23: Failure writing output to destination, passed 293 returned 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.2976858Z
+  Time since last request: 3088.47779080000009 seconds.
+  importAddress: GUID: 21a375b704549664589881dfc892e7e7 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Decorators - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 21a375b704549664589881dfc892e7e7 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Decorators - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 21a375b704549664589881dfc892e7e7' -> (Import Result ID: '88507c3732d78b7f1098d5a42ccd906b') in 0.067 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8fb15ba2d5fb43b9f017c5096d1d8270 DependenciesID=6add174f44582050a80325f85cb8feb2 StaticDependenciesID=c85a5ed05c6be8e53fcf06e8ca8364da 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.3666775Z
+  Time since last request: 0.0001371 seconds.
+  importAddress: GUID: ce0f0631fee52da41884853337cab99d - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils/CurveEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ce0f0631fee52da41884853337cab99d - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils/CurveEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ce0f0631fee52da41884853337cab99d' -> (Import Result ID: '61d85fbca472cfd3727ab3e6facfff42') in 0.046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=172acba163fea88410365c298cbefd2e DependenciesID=64dd3d2b8a4546d5e246a21e49b36fb8 StaticDependenciesID=e2a531315a8c36ac33b6fb8a0eba7d52 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.4142063Z
+  Time since last request: 0.0005587 seconds.
+  importAddress: GUID: 809388405dafb7145b4927abbdb52bf7 - Path: Assets/Scripts/PhoneStreamer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 809388405dafb7145b4927abbdb52bf7 - Path: Assets/Scripts/PhoneStreamer.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 809388405dafb7145b4927abbdb52bf7' -> (Import Result ID: 'b81ccf765a783f9496d8a4a8778c9c8d') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ca372ddeb47cb27eb2b3732517303a4 DependenciesID=29f0843dc611378e5428de69649bea5a StaticDependenciesID=c7d3b0bcfd17c284da1e833f7b5daee4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.4181904Z
+  Time since last request: 0.000435 seconds.
+  importAddress: GUID: 729a3ae164bcb3b4380459386adcf331 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_19.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 729a3ae164bcb3b4380459386adcf331 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_19.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 729a3ae164bcb3b4380459386adcf331' -> (Import Result ID: '1e1d14b8c67fe2aa135bd07ab7b24de5') in 0.054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44aad3002ab36f016502ed9b3539f4fd DependenciesID=00a5bbf47c4081b14527e91b2d33babf StaticDependenciesID=ddf42b15fdd8d665d450dcace7cd7333 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.4734813Z
+  Time since last request: 0.0002163 seconds.
+  importAddress: GUID: 02c0a84bd64c6f044954d8bde9b46ec8 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 02c0a84bd64c6f044954d8bde9b46ec8 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_28.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 02c0a84bd64c6f044954d8bde9b46ec8' -> (Import Result ID: '8329170ec14b6674aa2f0cc0e88a3173') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=55b1d0cb34c6b51f716e201318f0ff5c DependenciesID=55865f48133c5c0ca2dae3c4514fdfd3 StaticDependenciesID=5ab2836c59fcacb8b3803d753a961f11 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.4784654Z
+  Time since last request: 0.0004042 seconds.
+  importAddress: GUID: cd9006dc442cc244e89b3f492384d46a - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_41.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cd9006dc442cc244e89b3f492384d46a - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_41.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cd9006dc442cc244e89b3f492384d46a' -> (Import Result ID: '30c82bcd1c9286b27cae2b0c99913b93') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6c5e97dc954a3dc56b5c9b2fba9bcb44 DependenciesID=b1833f72f05bfcf6c20ce0de5feafb03 StaticDependenciesID=76a5cfa72c4c49d84b15824382c24406 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.4867222Z
+  Time since last request: 0.0003081 seconds.
+  importAddress: GUID: b3f6f3f7c722b4544b97e3c75840aa33 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/AutoExposure.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b3f6f3f7c722b4544b97e3c75840aa33 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/AutoExposure.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b3f6f3f7c722b4544b97e3c75840aa33' -> (Import Result ID: '39e8e96699f58d82ae6e0b324ab12fd9') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a566c00296faf1737c3fa6a5ee03083e DependenciesID=ae9047f553741efa6975b7987c7606a4 StaticDependenciesID=3d847ec253e18c29e1aa416013c9bee2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.4903606Z
+  Time since last request: 0.0004269 seconds.
+  importAddress: GUID: bfe953600e8fb1849a804ee08ace7b4c - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_23.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bfe953600e8fb1849a804ee08ace7b4c - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_23.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bfe953600e8fb1849a804ee08ace7b4c' -> (Import Result ID: '0321c58f2d0c7a03ea615c511186d735') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65d9a822232d923a95f14fc4338abf59 DependenciesID=df90d895a24baa7c825d16f4717b0b0b StaticDependenciesID=405c1be9c87e69aae41c4391e4054c98 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6148638Z
+  Time since last request: 0.1148978 seconds.
+  importAddress: GUID: a741cbbb27e6ad747a354440a9132a66 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/D3D9.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a741cbbb27e6ad747a354440a9132a66 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/D3D9.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a741cbbb27e6ad747a354440a9132a66' -> (Import Result ID: 'c5b720e525c82871fac3fe6e6419e926') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2360c36042583ac3e8db49954200c8a1 DependenciesID=962b724b0ef02d3bd317b382279b4529 StaticDependenciesID=69d62cb8ca7911b6241968936a498c2c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6177557Z
+  Time since last request: 0.0004573 seconds.
+  importAddress: GUID: 0a79c155edf9b2d429d4736abee5acdb - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_35.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0a79c155edf9b2d429d4736abee5acdb - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_35.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0a79c155edf9b2d429d4736abee5acdb' -> (Import Result ID: 'c258b1b16fff0e972d6aae653db59c1e') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17db5c6e564fb16caf8b05d1a2260ed3 DependenciesID=ecf391808071f4a0813dbc12a700f687 StaticDependenciesID=41a7f92873a01ee52b54118983a961ac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.624001Z
+  Time since last request: 0.000344 seconds.
+  importAddress: GUID: 4ac1374fad5b72b488c0aa6dc2a6b481 - Path: Packages/com.unity.postprocessing/Tests/Runtime - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4ac1374fad5b72b488c0aa6dc2a6b481 - Path: Packages/com.unity.postprocessing/Tests/Runtime - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4ac1374fad5b72b488c0aa6dc2a6b481' -> (Import Result ID: 'df015b39c16a531e0902205c47d09ba8') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb0856e4175c61ce0983b9c103818c16 DependenciesID=667421796fd9c55b49a72edc4931875a StaticDependenciesID=68fb40530c59555a1ab78cf397393d28 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6267309Z
+  Time since last request: 0.000428 seconds.
+  importAddress: GUID: 47feae56b7bdcf4499b96c2aa3c6ce07 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/BloomEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 47feae56b7bdcf4499b96c2aa3c6ce07 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/BloomEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 47feae56b7bdcf4499b96c2aa3c6ce07' -> (Import Result ID: '15c148e2635ca5c4fbde57ec87e7675c') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a993f8cbbf306f3e79f746ee2c4695c6 DependenciesID=8a6aac536934e92076f12ccab600f940 StaticDependenciesID=56374a90bc53b2eb2c864651eb9aabd1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.629744Z
+  Time since last request: 0.00053 seconds.
+  importAddress: GUID: 1fcb2f1e4a7d9ba42bc5940a5611f302 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/PostProcessProfileEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1fcb2f1e4a7d9ba42bc5940a5611f302 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/PostProcessProfileEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1fcb2f1e4a7d9ba42bc5940a5611f302' -> (Import Result ID: 'e15a61d21cf76f391c02ad9add1b3aec') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82f4f43106d08cc9717651478d7ea1ff DependenciesID=3b19167a9feca0f1d52aea7606e215d2 StaticDependenciesID=a024b1336ccb1db74268ac268f4a4f39 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6332008Z
+  Time since last request: 0.0004638 seconds.
+  importAddress: GUID: 6017f374382d64245a0a4aab668e6f38 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_0.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6017f374382d64245a0a4aab668e6f38 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_0.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6017f374382d64245a0a4aab668e6f38' -> (Import Result ID: '2bfcd2c293c794d30a8f392e4eaeb123') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2478810a6a07e743cc87a4f9abf59758 DependenciesID=cfa6fe787f3a3ac941c9bdb3e6b2adb1 StaticDependenciesID=7e692b050bda081835330665da046e7c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6385272Z
+  Time since last request: 0.0002976 seconds.
+  importAddress: GUID: 4f2b019548c499944923c5da221047a6 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/Vulkan.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4f2b019548c499944923c5da221047a6 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/Vulkan.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4f2b019548c499944923c5da221047a6' -> (Import Result ID: '2763e19f04055a8bb8babe96987b1a45') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=98e529f3eb6d8fecf3cb682e27b3a562 DependenciesID=1438cded2a3532a70db05e96684bf5ba StaticDependenciesID=dc331c1485fd0015f0c5ab988e30412d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6418095Z
+  Time since last request: 0.0004042 seconds.
+  importAddress: GUID: cd7292cede5bbe44cb888e1e40efac1e - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/XboxOne.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cd7292cede5bbe44cb888e1e40efac1e - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/XboxOne.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cd7292cede5bbe44cb888e1e40efac1e' -> (Import Result ID: '02690f689e803e2382d84f0bbf129026') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cdd98f5ebca3166cbdd5485e3b0fbf97 DependenciesID=3defdee3e772ad2e9937aea947f0af84 StaticDependenciesID=1947acaf022317ca670c9c01299c59cc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6456976Z
+  Time since last request: 0.0004366 seconds.
+  importAddress: GUID: f48a0d4b798943a448e8d2e5d891133c - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils/SerializedParameterOverride.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f48a0d4b798943a448e8d2e5d891133c - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils/SerializedParameterOverride.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f48a0d4b798943a448e8d2e5d891133c' -> (Import Result ID: 'af825dc66a9870836c202dcaa84266cb') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=088e5ef1c0bd716305b3aeb98e2b7aff DependenciesID=71f287ab539784bba9c4862fa05b519f StaticDependenciesID=03bdc61622ee92e37b0918807a5994b5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6489136Z
+  Time since last request: 0.0005693 seconds.
+  importAddress: GUID: 9f9fffe306f3969418c31ee836b6ffee - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/EffectListEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9f9fffe306f3969418c31ee836b6ffee - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/EffectListEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9f9fffe306f3969418c31ee836b6ffee' -> (Import Result ID: '28f3a3a3e79a59c9cf7d6c92fab6b635') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c39dfa9efc49b2a6f33c65fb78739f91 DependenciesID=4f01b2531fcb10a1c9e10a3d49f8f12e StaticDependenciesID=5e191983e5d3787260c354ebf7f53879 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6512462Z
+  Time since last request: 0.0003592 seconds.
+  importAddress: GUID: e4026acd2810a474b9be96bbeb80b959 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/ShaderIDs.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e4026acd2810a474b9be96bbeb80b959 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/ShaderIDs.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e4026acd2810a474b9be96bbeb80b959' -> (Import Result ID: '9739caf7f3413d76b668df80eda41cc4') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b00d43153193bd415586bed0a9c04a8e DependenciesID=6580474079a56f26cb730d6319d4826b StaticDependenciesID=a3c87b150384c0b2c0f4938bf815223a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.653818Z
+  Time since last request: 0.0003272 seconds.
+  importAddress: GUID: 3ac02e7e783571c468f9c086d2384ba7 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_7.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3ac02e7e783571c468f9c086d2384ba7 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_7.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3ac02e7e783571c468f9c086d2384ba7' -> (Import Result ID: '46cd31093fb80af8bcca4cd25bcf2d35') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=230268f572ee0e059d832e5bbd8e6571 DependenciesID=b6a9bb7b7e7556b3adca68ee4becf16d StaticDependenciesID=c001fc8befb4450c634ffc1d97f3cfc6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6628572Z
+  Time since last request: 0.0003471 seconds.
+  importAddress: GUID: 600d6212b59bb40409d19d750b5fd1e9 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 600d6212b59bb40409d19d750b5fd1e9 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 600d6212b59bb40409d19d750b5fd1e9' -> (Import Result ID: '3d30fa0181935368567bf331294a1eee') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2f7b2879047ce3b3b8f2a7c74872c16 DependenciesID=18fe3b0feb4fe3f8e28d2d4f4e6a148c StaticDependenciesID=f1d202b7e9e23706fea2100e45a75009 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6677769Z
+  Time since last request: 0.0004596 seconds.
+  importAddress: GUID: 10af18f17ff5ecf47bc4dbd1551b36d2 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 10af18f17ff5ecf47bc4dbd1551b36d2 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 10af18f17ff5ecf47bc4dbd1551b36d2' -> (Import Result ID: '1810f68b00f194232a293098f4ddb7e1') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c548d347ee69a21ee5dd87bf5cf53aec DependenciesID=3e3cd97606486aad62005192272f7b41 StaticDependenciesID=71f03f5b865090b994e4e2991f70fca2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6723716Z
+  Time since last request: 0.0005031 seconds.
+  importAddress: GUID: d7640629310e79646af0f46eb55ae466 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d7640629310e79646af0f46eb55ae466 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d7640629310e79646af0f46eb55ae466' -> (Import Result ID: 'b15680180269968649bcf291a53705be') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ad97b06856b13a2b22affe90c6e7e05 DependenciesID=b78b42b58d8e87e68e8d3703aa2a03ec StaticDependenciesID=3fade2f084477ae46bd121833967bf0b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6787463Z
+  Time since last request: 0.0003866 seconds.
+  importAddress: GUID: 2c89984c2a3e6cd4492c6f695f07bae6 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/PostProcessLayerEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2c89984c2a3e6cd4492c6f695f07bae6 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/PostProcessLayerEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2c89984c2a3e6cd4492c6f695f07bae6' -> (Import Result ID: '8e1b44b84704d03b5bf7f6f6426f6200') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3334f73f10429f51fa4f8cc9cc83386b DependenciesID=cf38f81adcc1ea06f3e4a597effd0116 StaticDependenciesID=3135350b6609813921856887f8854939 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6825673Z
+  Time since last request: 0.0006865 seconds.
+  importAddress: GUID: b34a29e523cb9d545881e193a079f2df - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b34a29e523cb9d545881e193a079f2df - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b34a29e523cb9d545881e193a079f2df' -> (Import Result ID: '4f4a2cf32e5703b66ce7107ab8592e68') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=edd5d35f461fe4fedc5f4a681f719afb DependenciesID=72989f5ec0e5d4a182fe9fda1d1d04f7 StaticDependenciesID=10df84bffe27acad8b1a608688d540f8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6864465Z
+  Time since last request: 0.0004683 seconds.
+  importAddress: GUID: ed6416461734f3a4d97b2475252d5f6c - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/D3D12.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ed6416461734f3a4d97b2475252d5f6c - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/D3D12.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ed6416461734f3a4d97b2475252d5f6c' -> (Import Result ID: '0868e5b5c6e8f91d4215dbe91f5cf3e0') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb3615051bb2e6a502b214761711fb65 DependenciesID=d6524c8e07549c493ed9133a42728323 StaticDependenciesID=0f6b4907afe868bfebfa552ab3a642c6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.689266Z
+  Time since last request: 0.0004541 seconds.
+  importAddress: GUID: 34a819c9e33402547a81619693adc8d5 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 34a819c9e33402547a81619693adc8d5 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 34a819c9e33402547a81619693adc8d5' -> (Import Result ID: '1cf41f3d19c2f7b1787af3616fdc4e77') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cecd5beb7bab415c8445047de7c8d316 DependenciesID=5f741453b14cd0533e08185af21b575e StaticDependenciesID=90aa42b47d40d0c36dbcd06b5ee1494b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.6927119Z
+  Time since last request: 0.0003448 seconds.
+  importAddress: GUID: c94b57b5a32a22d43ade66e09f6a4bd2 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_53.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c94b57b5a32a22d43ade66e09f6a4bd2 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_53.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c94b57b5a32a22d43ade66e09f6a4bd2' -> (Import Result ID: 'ff5f0a9d513ef05f9f8239c68f481615') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7209fe09cc2f5f881bca4ecbd24db18 DependenciesID=f2ff68ab624ba53cd2759ebc4d7b879b StaticDependenciesID=046e6d366351bf61cffbc9e109f71c9e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7004136Z
+  Time since last request: 0.0003981 seconds.
+  importAddress: GUID: d65e486e4de6e5448a8fbb43dc8756a0 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Grain.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d65e486e4de6e5448a8fbb43dc8756a0 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Grain.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d65e486e4de6e5448a8fbb43dc8756a0' -> (Import Result ID: '2f3d87fee91289589b0aad0ba628df80') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2037ff0bd1418971202ea4640fae399 DependenciesID=04d215b4102f9f665128602079f7d17a StaticDependenciesID=83d06a8d1b50c09800473f4b4e72d4f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7040683Z
+  Time since last request: 0.0005428 seconds.
+  importAddress: GUID: 4d506bd5da20d0248bfa343c6693d655 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/CubeLutAssetFactory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4d506bd5da20d0248bfa343c6693d655 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/CubeLutAssetFactory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4d506bd5da20d0248bfa343c6693d655' -> (Import Result ID: '9d03627d712f6938420f0f117b64f5a0') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5b9f42f5136ff34a0e1786fb199676b5 DependenciesID=95a7672ac1773504728c03cb7beb30a8 StaticDependenciesID=27c7d1701873d1c2812b3c32333ad7b7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7066651Z
+  Time since last request: 0.000366 seconds.
+  importAddress: GUID: f75014305794b3948a3c6d5ccd550e05 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f75014305794b3948a3c6d5ccd550e05 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f75014305794b3948a3c6d5ccd550e05' -> (Import Result ID: '27dd08cd96e387cbc07b486be0d326e5') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1525a01e82623b7426e9eb1a9ab14c69 DependenciesID=2505f96dcb20bb234daeaecb1fe550b8 StaticDependenciesID=266a0b0cf6ca43026861b97197bcb129 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7393265Z
+  Time since last request: 0.0284921 seconds.
+  importAddress: GUID: c564cc69bd8582a48b2e0a2090d28361 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/ScalableAO.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c564cc69bd8582a48b2e0a2090d28361 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/ScalableAO.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c564cc69bd8582a48b2e0a2090d28361' -> (Import Result ID: '90eabf0699cb5cb3c5728234a9ff381f') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73d035ab3a6c29fc14a1dea8b4a485fe DependenciesID=2377b7741c46b35894d38f0f5dd74c15 StaticDependenciesID=0e0d1a193f35ef2fbbbb3b85ffed7a87 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7434664Z
+  Time since last request: 0.0005749 seconds.
+  importAddress: GUID: 302dae2302d23ac49bbec3e17c0530b9 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/Cubes/Unity_Log_to_sRGB_r1.cube - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 302dae2302d23ac49bbec3e17c0530b9 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/Cubes/Unity_Log_to_sRGB_r1.cube - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 302dae2302d23ac49bbec3e17c0530b9' -> (Import Result ID: 'f5b1be274b190c35d289aed4aa95d2dc') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=876b751b42b4e260616d913a3ece6d1d DependenciesID=edb4d16580610212ffe2f4e5dc41d461 StaticDependenciesID=c8834e69542c251281c8311315d0493c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7484575Z
+  Time since last request: 0.0003598 seconds.
+  importAddress: GUID: ff5f3317371838d4fa16ac6c2acf2040 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SpectralLUTs/SpectralLut_RedBlue.tga - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ff5f3317371838d4fa16ac6c2acf2040 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SpectralLUTs/SpectralLut_RedBlue.tga - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ff5f3317371838d4fa16ac6c2acf2040' -> (Import Result ID: '8aef6f6f2806ac9f8bc170084ef17a1b') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=68534151b3696c553abfb2c609753887 DependenciesID=97c501295a06cd3cd10100c1651483bd StaticDependenciesID=d11ede22eddebdc4cb858575c1bc1858 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7551681Z
+  Time since last request: 0.0004149 seconds.
+  importAddress: GUID: 4a8f054acfbd08043a931cd22760758d - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SpectralLUTs/SpectralLut_GreenPurple.tga - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4a8f054acfbd08043a931cd22760758d - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/SpectralLUTs/SpectralLut_GreenPurple.tga - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4a8f054acfbd08043a931cd22760758d' -> (Import Result ID: '4c2ffe35c06cbd4dd521cc7ee52505b8') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2fea5ab95b9ef972721ef5097f79d861 DependenciesID=1fa0bfcd12e07c1aaae2828991a4115a StaticDependenciesID=639c7af0ad04096b787f15dd5bf4b3ae 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7644865Z
+  Time since last request: 0.0005665 seconds.
+  importAddress: GUID: a46f66b7c3fc33547bd9093e960d9ab1 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a46f66b7c3fc33547bd9093e960d9ab1 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a46f66b7c3fc33547bd9093e960d9ab1' -> (Import Result ID: '8440d4b139c10b678674eeb412641ab4') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7abb7f3265a93848d46201715e77437b DependenciesID=9d7f9e97a49a24d2cf3f1ff3005a11a6 StaticDependenciesID=4f381c88dc6b99250aaa4532f87e1db7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7679027Z
+  Time since last request: 0.0003732 seconds.
+  importAddress: GUID: eb4c0b518e013c8418135b3bd8a91b6c - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/DepthOfFieldEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: eb4c0b518e013c8418135b3bd8a91b6c - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/DepthOfFieldEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: eb4c0b518e013c8418135b3bd8a91b6c' -> (Import Result ID: '4f499ef21ace5d6463c131ce166cb91f') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c8e211abc0e3631acdbbd5d46aede4c8 DependenciesID=19cb50e090122af65150f7ab35bda9f7 StaticDependenciesID=6600d8ab05863f6978a5e487e6168672 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7722635Z
+  Time since last request: 0.0004953 seconds.
+  importAddress: GUID: de7f3ac52268a194383c7d62c2a343c1 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Editor/Trackball.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: de7f3ac52268a194383c7d62c2a343c1 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Editor/Trackball.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: de7f3ac52268a194383c7d62c2a343c1' -> (Import Result ID: '6044b0de7d02d78f808a82ff1a61a458') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d9147f2641e6d364e6b981d1a4fc264 DependenciesID=76ac8cf388a4caa3ca188777b725616f StaticDependenciesID=9a487dcb4060abf96b62f8a4fa76c607 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7761709Z
+  Time since last request: 0.0006643 seconds.
+  importAddress: GUID: 2ee161d8945169243b5698fec114e1b7 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_15.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2ee161d8945169243b5698fec114e1b7 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_15.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2ee161d8945169243b5698fec114e1b7' -> (Import Result ID: 'e142e9d7dcc0e31096991c2a17edb50a') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50ff92274cea0991036c249703625a70 DependenciesID=a14900bc51e8751c56aafb0248715262 StaticDependenciesID=cde60c8d90e87b3b065961df38ff3289 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7846487Z
+  Time since last request: 0.0004493 seconds.
+  importAddress: GUID: d82acb873f357d046901f9e9f888911a - Path: Packages/com.unity.postprocessing/Tests/Runtime/PostProcessingRuntimeTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d82acb873f357d046901f9e9f888911a - Path: Packages/com.unity.postprocessing/Tests/Runtime/PostProcessingRuntimeTests.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d82acb873f357d046901f9e9f888911a' -> (Import Result ID: 'ee4fd8d6cbac892f5e0c499d47676684') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=792f93457f0b47cf624a12b96cac35bb DependenciesID=58b20895b91a33f237c41714dab0eb88 StaticDependenciesID=bd8fcf80a404776a7be436811f327537 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7887793Z
+  Time since last request: 0.0004422 seconds.
+  importAddress: GUID: 0fa10b21877c61b4db40ba5708815f81 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_30.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0fa10b21877c61b4db40ba5708815f81 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_30.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0fa10b21877c61b4db40ba5708815f81' -> (Import Result ID: '791ebcb23ea20fa3f55abe4246f8303e') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5ab7b7e12e663863119ea7bfe7c03ad DependenciesID=d5b9852fe91b3fda00428e46791d34a1 StaticDependenciesID=875043f1c9203e8fba1f10921f7e12d8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.7961812Z
+  Time since last request: 0.000266 seconds.
+  importAddress: GUID: 6a0c0086cde60e74e9ad1fce57eab9f1 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/OpenGL.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6a0c0086cde60e74e9ad1fce57eab9f1 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/OpenGL.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6a0c0086cde60e74e9ad1fce57eab9f1' -> (Import Result ID: '62c3a491f0f76355c45cf3ec93ee1515') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=903d73af0200ba574d350315d16ad262 DependenciesID=8933035e7381504999196c3dc6f79775 StaticDependenciesID=2783112c6630a9c8058b684a03236460 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.8012253Z
+  Time since last request: 0.0002516 seconds.
+  importAddress: GUID: 4da61023839a0604d834e6ffde67ad52 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/PropertySheet.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4da61023839a0604d834e6ffde67ad52 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/PropertySheet.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4da61023839a0604d834e6ffde67ad52' -> (Import Result ID: 'cae34eb001e87e8ab18285fe06ebd2bf') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e7f7e89960416b27c905cdbf8a8f101 DependenciesID=2064ea96818a4ca1458d55c6cc74e3bf StaticDependenciesID=edd01f1873b521eca913724379029adc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.8059591Z
+  Time since last request: 0.0007143 seconds.
+  importAddress: GUID: 3c2f1fb7e4b66e74191b7c328ada52d9 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3c2f1fb7e4b66e74191b7c328ada52d9 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_1.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3c2f1fb7e4b66e74191b7c328ada52d9' -> (Import Result ID: 'a1738eb6717d9d5870b329c87b8a37ba') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8cc2a983db154b47ec693d778c35ff3d DependenciesID=006f7699a473f88043b66dd92c2f1578 StaticDependenciesID=73a95a49330483fd207ac58370b83d9f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.8120709Z
+  Time since last request: 0.0002896 seconds.
+  importAddress: GUID: bdd06fb88ef36ed4a85dd506352c2d80 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_27.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bdd06fb88ef36ed4a85dd506352c2d80 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_27.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bdd06fb88ef36ed4a85dd506352c2d80' -> (Import Result ID: 'ce3b23389452661bf3d9f8b206fb78e1') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0670319f4b7e4b5e53fd4c1de055248e DependenciesID=8bafa007e627f48cad4ebefcf41fce4a StaticDependenciesID=aad88dd3a5a250de5e9e47fd1fcafb52 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.8189556Z
+  Time since last request: 0.0003381 seconds.
+  importAddress: GUID: c072b653e98a06e40857d76ca8c7eecd - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_3.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c072b653e98a06e40857d76ca8c7eecd - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_3.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c072b653e98a06e40857d76ca8c7eecd' -> (Import Result ID: '672d9944564a76aee849c074f5071f6f') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85049407a58e953f3ce5d9d61798acbb DependenciesID=101a1c6ec0494179e081d1cd503e93dc StaticDependenciesID=f957c45ef32286ed636255c9651d9f09 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.8269307Z
+  Time since last request: 0.0001982 seconds.
+  importAddress: GUID: bf95b6fdc179b0e4f890c841406193fc - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_17.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bf95b6fdc179b0e4f890c841406193fc - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_17.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bf95b6fdc179b0e4f890c841406193fc' -> (Import Result ID: 'd191826c7fa3f1fe2c29afb4563c72a4') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df86caa975725b8a915f11a3593e80d6 DependenciesID=2989d7628524a11e8610f9b691510eab StaticDependenciesID=1b88846c68ec4a5951fb061b3dc63499 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.8351592Z
+  Time since last request: 0.0002605 seconds.
+  importAddress: GUID: c687cf9a3e8607a4b991e6d445a2f9bf - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/Spline.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c687cf9a3e8607a4b991e6d445a2f9bf - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/Spline.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c687cf9a3e8607a4b991e6d445a2f9bf' -> (Import Result ID: '2b00a0da931fdaf7e8dd67bcab3e0e60') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2cc951896b2654120d01d00a70a67c9a DependenciesID=0d994d7cfb55c2d18805b98c0b9da156 StaticDependenciesID=c61d6b8fe580dec970a9a3bdad60e09f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.8379259Z
+  Time since last request: 0.0004082 seconds.
+  importAddress: GUID: d82512f9c8e5d4a4d938b575d47f88d4 - Path: Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d82512f9c8e5d4a4d938b575d47f88d4 - Path: Packages/com.unity.postprocessing/PostProcessing/PostProcessResources.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d82512f9c8e5d4a4d938b575d47f88d4' -> (Import Result ID: '578c0a33a21933031107933aac8c3c51') in 0.046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4e56e5bfeca6e681faa17c2d69fe7d5 DependenciesID=facc87192f89d103677224debb340624 StaticDependenciesID=6718c06a09c61c4061ca9598b354cf9c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9126111Z
+  Time since last request: 0.0271654 seconds.
+  importAddress: GUID: e02724c54d545ad439d7a5fa991ae924 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e02724c54d545ad439d7a5fa991ae924 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e02724c54d545ad439d7a5fa991ae924' -> (Import Result ID: 'a28c1f4f72d3445ba03d9f76e376dfa4') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=796459a208137d66e93067ab75cd8e1e DependenciesID=e75df1c149030b6305d26f6abf8e0e34 StaticDependenciesID=9f7b8313d6d83bcad729f951b16f7cf2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9161995Z
+  Time since last request: 0.0005038 seconds.
+  importAddress: GUID: acde5141d5f4f7a4188394bd52c4dc38 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_5.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: acde5141d5f4f7a4188394bd52c4dc38 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise256px/LDR_LLL1_5.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: acde5141d5f4f7a4188394bd52c4dc38' -> (Import Result ID: '9ac70728bef35f01be94a6a3e468dc17') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=94c6234f791483d84ee4726d853e9872 DependenciesID=95a3493bf8b7f0df6ef5bb1d6bdcd50d StaticDependenciesID=f121a3f12b7637449a296f32c1d4fcf9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9231725Z
+  Time since last request: 0.0002701 seconds.
+  importAddress: GUID: 1d6958e30e40a254dbe5a54c573eeb3c - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1d6958e30e40a254dbe5a54c573eeb3c - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_37.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1d6958e30e40a254dbe5a54c573eeb3c' -> (Import Result ID: 'c348f19a3d58c787467a1b8a62b17ff7') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=65647e22ee2e2e752cea10c90b9925a2 DependenciesID=c95f8059f3e5445bc9bc482cf2cbfcf1 StaticDependenciesID=d86b5d4f93443e1a7d02436df9d1691f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9306268Z
+  Time since last request: 0.0004229 seconds.
+  importAddress: GUID: 48a79b01ea5641d4aa6daa2e23605641 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Bloom.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 48a79b01ea5641d4aa6daa2e23605641 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Bloom.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 48a79b01ea5641d4aa6daa2e23605641' -> (Import Result ID: '81fd8dbbcfb874b34f376fae199c956c') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=060ad337adb6cded13a4d0a10d408ffb DependenciesID=ce7f197edf9770335f2175eaf2c02e76 StaticDependenciesID=2ac16bf4785c1b82c2f4a26c011ff46d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9348894Z
+  Time since last request: 0.0004555 seconds.
+  importAddress: GUID: 70ea2ab329ffbac43a0a02daa61dbe6b - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Attributes/PostProcessEditorAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 70ea2ab329ffbac43a0a02daa61dbe6b - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Attributes/PostProcessEditorAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 70ea2ab329ffbac43a0a02daa61dbe6b' -> (Import Result ID: '1ade18c7263991ce11ca0f4a9fcf1fdf') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0db698ff1c2372ecfcb88058b239e9ef DependenciesID=5e1f910eecbdc6db9f1081a5cfedf2fc StaticDependenciesID=87a3111e3de679e9d093c02d1c18cb78 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9384089Z
+  Time since last request: 0.0004535 seconds.
+  importAddress: GUID: 41bbedb2cfb9e934f2bf95e965a2e082 - Path: Packages/com.unity.postprocessing - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 41bbedb2cfb9e934f2bf95e965a2e082 - Path: Packages/com.unity.postprocessing - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 41bbedb2cfb9e934f2bf95e965a2e082' -> (Import Result ID: 'd910dd7e6ffab55016f1debee3557b5c') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0d0dd6634d9a04139ea9f234c9f0c95 DependenciesID=718a97845cfb97a56174abaf8764ab9e StaticDependenciesID=b72694e8eb1b45607da87b7a64a87f8c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9406741Z
+  Time since last request: 0.0003824 seconds.
+  importAddress: GUID: 771903fe7b4674445829e52e91cff019 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_11.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 771903fe7b4674445829e52e91cff019 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_11.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 771903fe7b4674445829e52e91cff019' -> (Import Result ID: 'a75d9d2ab13d459c3f65e81124fd331e') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=74af470b12a5a3a85a7145d0fe979c97 DependenciesID=cbb7b52e741449ca0d37d12f3165ce91 StaticDependenciesID=f6bc8cc0a4124446be972bd327911ffe 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9491065Z
+  Time since last request: 0.0003829 seconds.
+  importAddress: GUID: 28cff9aae95df994e98129a9b35627de - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Attributes/PostProcessAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 28cff9aae95df994e98129a9b35627de - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Attributes/PostProcessAttribute.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 28cff9aae95df994e98129a9b35627de' -> (Import Result ID: '4da721141437d6d06372bbf7f380aa18') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=606ef8a12bc2ee7db7d52a48c25727f7 DependenciesID=9779dbcd2ed3715dd1ceaa5f6e01349c StaticDependenciesID=43bc3a1780896a4ac82498dff0e67770 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9526668Z
+  Time since last request: 0.0001147 seconds.
+  importAddress: GUID: 18183ebfeeab97749b43e38b928604a7 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 18183ebfeeab97749b43e38b928604a7 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.compute - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 18183ebfeeab97749b43e38b928604a7' -> (Import Result ID: '5508a3abf9f5b96ca4e5c4e10a93f69c') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb1a50928c973b33472f58d7eb97a1e8 DependenciesID=5ddda294e82b1022dc311c2976ad40b1 StaticDependenciesID=0d0a0832311adfed9949da9cf553363c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9567354Z
+  Time since last request: 0.0005778 seconds.
+  importAddress: GUID: 8f735421c1ed8e54c992b4640aca9a89 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8f735421c1ed8e54c992b4640aca9a89 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8f735421c1ed8e54c992b4640aca9a89' -> (Import Result ID: '512de6276102e9ec03164e5f9b931487') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7af432d45fc3e365a966f616e0efd89e DependenciesID=c896cc908ae2e5109623732c3eb56fd1 StaticDependenciesID=6156bb292b4229db5f26d3a9ae5fa0d7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9607566Z
+  Time since last request: 0.0006026 seconds.
+  importAddress: GUID: c387aa7210e2f324b85febd7211d6c9f - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/XRSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c387aa7210e2f324b85febd7211d6c9f - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/XRSettings.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c387aa7210e2f324b85febd7211d6c9f' -> (Import Result ID: '8e40f4e1cbe76d43113617d9a808fa68') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3fd5ef6229610eb7a892d6b5e70f3d03 DependenciesID=f9b6209460a05909868c9adba1878f56 StaticDependenciesID=efa8f00fe5920981df208cc4f9bb808e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9647807Z
+  Time since last request: 0.000405 seconds.
+  importAddress: GUID: b7733f6a6fd11474e8fc598901f90fab - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessRenderContext.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b7733f6a6fd11474e8fc598901f90fab - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessRenderContext.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b7733f6a6fd11474e8fc598901f90fab' -> (Import Result ID: '6e09d7731378deb562ad5b81ab0b55ab') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d6eeb1eed65c2d68b1430b71dc31639 DependenciesID=0f6e887735f2f12a24ffc95863e417db StaticDependenciesID=7a86ff108c4628b98fc2fa63edaf01a9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.96968Z
+  Time since last request: 0.0003788 seconds.
+  importAddress: GUID: 5d05ae29f423ce241b6cddfe46280b4c - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Monitors/Monitor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5d05ae29f423ce241b6cddfe46280b4c - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Monitors/Monitor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5d05ae29f423ce241b6cddfe46280b4c' -> (Import Result ID: 'a376b0f88cb72e6bf3dda9bf7aa8ad70') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ddd52eaf9a5e7ceace8e55944cf96866 DependenciesID=d4cde2913fff6fbd8f525bfca24301db StaticDependenciesID=68697a101844aded407d35949412f85b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9722394Z
+  Time since last request: 0.0004766 seconds.
+  importAddress: GUID: 62e2b920ea5fcaa4982e7fc50bf690a8 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Fog.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 62e2b920ea5fcaa4982e7fc50bf690a8 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/Fog.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 62e2b920ea5fcaa4982e7fc50bf690a8' -> (Import Result ID: '09651cd4c38bc0b928ee1f9570d4718a') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7aa1e605289e40106cf42491178956bb DependenciesID=bfc8aaf53df47d84c57b54670198c476 StaticDependenciesID=722094017bbb16d16421904999c0b951 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.975271Z
+  Time since last request: 0.0004637 seconds.
+  importAddress: GUID: 556797029e73b2347956b6579e77e05b - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/DepthOfField.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 556797029e73b2347956b6579e77e05b - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/DepthOfField.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 556797029e73b2347956b6579e77e05b' -> (Import Result ID: '231061a4f6c4638913535a3d241714ae') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7fbcd974f7dbd557dc6af54c665f125 DependenciesID=17ae68836367e7d899d064153087a4ee StaticDependenciesID=19b5d91175bcecb754a8302499c32656 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9787606Z
+  Time since last request: 0.000324 seconds.
+  importAddress: GUID: 3e4b5d9a1abab984cbe0cbdb31fca939 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/CubeLutAssetImporter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3e4b5d9a1abab984cbe0cbdb31fca939 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/CubeLutAssetImporter.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3e4b5d9a1abab984cbe0cbdb31fca939' -> (Import Result ID: '2bd0329df37b9dfe41442ff769f07bc7') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad1634cd37054484a2c116a0f2f975b6 DependenciesID=b0d986e8d8648c8429c8c5ba4ad2dcda StaticDependenciesID=24b8ae92477ad73f5ce3354ceffcc65b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9823117Z
+  Time since last request: 0.0002711 seconds.
+  importAddress: GUID: 382151503e2a43a4ebb7366d1632731d - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 382151503e2a43a4ebb7366d1632731d - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 382151503e2a43a4ebb7366d1632731d' -> (Import Result ID: '77d2648854927879b1b39470e59ec135') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d1649d2716ed06210220180438b4bce DependenciesID=120fd632c1d876ac28705807c03c7486 StaticDependenciesID=db30297577d9eff5fa7a406ca2a66f3f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9874915Z
+  Time since last request: 0.0005695 seconds.
+  importAddress: GUID: b7f000750830ddb4bbc80065b9314ce9 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_21.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b7f000750830ddb4bbc80065b9314ce9 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_21.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b7f000750830ddb4bbc80065b9314ce9' -> (Import Result ID: 'a950a8a82c6882f9495f404b006d6370') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a3d2c056060d4c365e055505a39884b DependenciesID=2c75cde9c1fea419e327fbb3405aad07 StaticDependenciesID=654dca2836f2df238e60ab0ae222673f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9958222Z
+  Time since last request: 0.0003446 seconds.
+  importAddress: GUID: 3ae5839b763bada47af0cca23c360452 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/TargetPool.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3ae5839b763bada47af0cca23c360452 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Utils/TargetPool.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3ae5839b763bada47af0cca23c360452' -> (Import Result ID: '3090cd5ec0b8f4bec66b8f5c3834da0a') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4d30f82d520f416d852dddbd6180473 DependenciesID=440dd2d161321b895d231f0540509f5a StaticDependenciesID=17b7628530ccdcb17fce400ade316c06 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:36.9983916Z
+  Time since last request: 0.0003118 seconds.
+  importAddress: GUID: 9597bf0cd70376447ace14a366b40fe8 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/WebGPU.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9597bf0cd70376447ace14a366b40fe8 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/API/WebGPU.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9597bf0cd70376447ace14a366b40fe8' -> (Import Result ID: 'e528ab9d53bbda233c9a12861ee3f224') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0618e4b111766e000244b6a912db171 DependenciesID=80b3ad48a3bc77608bdc484a949d1e2c StaticDependenciesID=19186d892d7351b033df4c33b6325f68 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0020486Z
+  Time since last request: 0.000516 seconds.
+  importAddress: GUID: 9b77c5407dc277943b591ade9e6b18c5 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/LensDistortion.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9b77c5407dc277943b591ade9e6b18c5 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Effects/LensDistortion.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9b77c5407dc277943b591ade9e6b18c5' -> (Import Result ID: 'e148af93fd39c7d4a0ec81d45c545572') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47b6c3239863c6e9d586caf22e474e5b DependenciesID=04d0c44716f716f86f49bf266e13b1b5 StaticDependenciesID=7d55bf93a025a3e8687b0e0ba32211e8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0064012Z
+  Time since last request: 0.0003937 seconds.
+  importAddress: GUID: 09e002b759745fa499d539b9021af38e - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils/EditorUtilities.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 09e002b759745fa499d539b9021af38e - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Utils/EditorUtilities.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 09e002b759745fa499d539b9021af38e' -> (Import Result ID: '512eb8a8a343435d4df7ca65a5a3758e') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1704a1236f10293ade946e1377f51153 DependenciesID=042baecfb533627c3c28115bc04208b9 StaticDependenciesID=6ee5b79060585124c9449dd8276b35be 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0100336Z
+  Time since last request: 0.0005473 seconds.
+  importAddress: GUID: 351e95d0e20a54849bd4ce5f9b498934 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_36.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 351e95d0e20a54849bd4ce5f9b498934 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_36.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 351e95d0e20a54849bd4ce5f9b498934' -> (Import Result ID: '82abe78bc1107cb8ce2734c15731a117') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50cac66db862b2664a38dc7ee33847eb DependenciesID=ddd285158283bf2f216712efc2071762 StaticDependenciesID=1306ca3097f8b537c8a032fcc4d9408c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.018068Z
+  Time since last request: 0.0004226 seconds.
+  importAddress: GUID: e4732e1210a3d39459db8b431f866659 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessEvent.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e4732e1210a3d39459db8b431f866659 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessEvent.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e4732e1210a3d39459db8b431f866659' -> (Import Result ID: '65a3eda2cfa3f1beda94632e084df321') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c0d5d5f3076cfe98b154c33e68d22818 DependenciesID=c6aa40a332358c7d803029d588479b09 StaticDependenciesID=35cc6c7417d0e41ef6527657d18cfa3b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0438433Z
+  Time since last request: 0.0223702 seconds.
+  importAddress: GUID: 6d1cd2be5ba39024fb7362476c42d023 - Path: Packages/com.unity.postprocessing/Tests/Editor/Unity.Postprocessing.Editor.Tests.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6d1cd2be5ba39024fb7362476c42d023 - Path: Packages/com.unity.postprocessing/Tests/Editor/Unity.Postprocessing.Editor.Tests.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6d1cd2be5ba39024fb7362476c42d023' -> (Import Result ID: '0dcdb2760ef45982461941d8b377f33a') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=96eef616ca61494eac0cda429678851b DependenciesID=875ee5b0a3b4193e6ec844a69024eeed StaticDependenciesID=b9d012ceee1c3660b76ef893ee881be5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0489024Z
+  Time since last request: 0.0003828 seconds.
+  importAddress: GUID: 418668fbeb6130848b1bffc8d5645b45 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 418668fbeb6130848b1bffc8d5645b45 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 418668fbeb6130848b1bffc8d5645b45' -> (Import Result ID: 'a6774ef6c0688b2a0eade6458efc7d20') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=42ff1f108bab85f63b4ad14c218a18cf DependenciesID=395fc29cd43ebf7a978945f627994a40 StaticDependenciesID=d4a3b3fdb1b53968fafcb7ed4e65dae9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0526218Z
+  Time since last request: 0.0004914 seconds.
+  importAddress: GUID: 2ea9ecb99e9d2604c9c553b14e63a67f - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2ea9ecb99e9d2604c9c553b14e63a67f - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2ea9ecb99e9d2604c9c553b14e63a67f' -> (Import Result ID: '89d1b1dc7171b3bf18f642c1ef3dc162') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5790aec9c8a7153e2d0634f16f4a1c49 DependenciesID=af05c508e6194704c0b3ed10f5497c07 StaticDependenciesID=cf9db3d5e307bbda7b0fe57a1f3ad690 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0567834Z
+  Time since last request: 0.0003744 seconds.
+  importAddress: GUID: d798d5719bf3b434eafb013385f872eb - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/ScreenSpaceReflectionsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d798d5719bf3b434eafb013385f872eb - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Effects/ScreenSpaceReflectionsEditor.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d798d5719bf3b434eafb013385f872eb' -> (Import Result ID: '6209d1fdb1f1ed8ca81e096090ec4f34') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82e203b40db6af6ad82c60a4244e3bb1 DependenciesID=c94a8cf20822a1316b8320e5ced570a1 StaticDependenciesID=43fa5760d482932a300f2d3d5dcde987 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0598959Z
+  Time since last request: 0.0002879 seconds.
+  importAddress: GUID: d60799ab2a985554ea1a39cd38695018 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Unity.Postprocessing.Runtime.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d60799ab2a985554ea1a39cd38695018 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/Unity.Postprocessing.Runtime.asmdef - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d60799ab2a985554ea1a39cd38695018' -> (Import Result ID: '4a69be3f86764dbee5baea10d854272f') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7efd95c658c8ce88f70322df7c9e34a2 DependenciesID=c4f209ffb4be0278bfbd7698d4aa88c5 StaticDependenciesID=343f5c96aa8f9427b63c9045fe91e403 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0637191Z
+  Time since last request: 0.0005234 seconds.
+  importAddress: GUID: d4351734f8a0aaa42a51a99db92e92e2 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/ResourceAssetFactory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d4351734f8a0aaa42a51a99db92e92e2 - Path: Packages/com.unity.postprocessing/PostProcessing/Editor/Tools/ResourceAssetFactory.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d4351734f8a0aaa42a51a99db92e92e2' -> (Import Result ID: '9b0716d283019f249593bac2152e2119') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=01f101979e0d2f4b8f9e65a5af9e5d6b DependenciesID=c6ffc7c05d9b88971494b993369a85dc StaticDependenciesID=0444be50a74fad6506ba36b38d1281df 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0687367Z
+  Time since last request: 0.000362 seconds.
+  importAddress: GUID: 8e6292b2c06870d4495f009f912b9600 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessProfile.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8e6292b2c06870d4495f009f912b9600 - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessProfile.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8e6292b2c06870d4495f009f912b9600' -> (Import Result ID: '8027fa0f5efb1580e32b1e1872f6be6f') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4a3f298fb48a7e76ec4e9dc509d6104 DependenciesID=ef59cc8c2600609cc55887b1f3af22c6 StaticDependenciesID=3d88ec5b88570afac4954ab0cd046899 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0746254Z
+  Time since last request: 0.000398 seconds.
+  importAddress: GUID: 3e6879594f0f31c42b64e91e59fe78f6 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3e6879594f0f31c42b64e91e59fe78f6 - Path: Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.hlsl - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3e6879594f0f31c42b64e91e59fe78f6' -> (Import Result ID: '796ac33b6d95b5653afaf16703583eeb') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ea43fd230fbb715b6ba7e0617b98783 DependenciesID=d7fea8d4b346be5976b64e8ed2700ab9 StaticDependenciesID=c7793e4e85e0e70a839a5fba4b1121f0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.078381Z
+  Time since last request: 0.0002183 seconds.
+  importAddress: GUID: 68613e6a221be1a4b9f31d7fa1c2d1bf - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_13.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 68613e6a221be1a4b9f31d7fa1c2d1bf - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_13.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 68613e6a221be1a4b9f31d7fa1c2d1bf' -> (Import Result ID: 'de85223047fdc35f533203fb711dff28') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a5fbc8f1cb77e2c978bfaffa4805046 DependenciesID=c9083ea0e6d6eca410bfb12578a235a4 StaticDependenciesID=d16f56cdf02b8d278289814d4f317148 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0877716Z
+  Time since last request: 0.0003214 seconds.
+  importAddress: GUID: 30f4b897495c7ad40b2d47143e02aaba - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessResources.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 30f4b897495c7ad40b2d47143e02aaba - Path: Packages/com.unity.postprocessing/PostProcessing/Runtime/PostProcessResources.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 30f4b897495c7ad40b2d47143e02aaba' -> (Import Result ID: '733c5d101e1deb23fce84596bf7a466e') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d57282e72f5ea0da75ef136e83cd7009 DependenciesID=f6029a2d280dfb0b4fbd0d2aef49a59d StaticDependenciesID=502a064c8498d0c9c146faac6fc67efb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.0911689Z
+  Time since last request: 0.000431 seconds.
+  importAddress: GUID: b71bb466b71fd13449dd736f63caeb67 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_33.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b71bb466b71fd13449dd736f63caeb67 - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/BlueNoise64px/LDR_LLL1_33.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b71bb466b71fd13449dd736f63caeb67' -> (Import Result ID: '75f1eb954ee181567dd130b7dbd2bebc') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=356d7773e7d106854e2b1e12fdb006e8 DependenciesID=20211003d682b78552fc0ffa7fcb1734 StaticDependenciesID=23a0d74c6d0896abe257c4a0e7c8a259 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-02T15:00:37.098858Z
+  Time since last request: 0.0003836 seconds.
+  importAddress: GUID: 7a051dbda2d7bc447bee412427cd311e - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/LensDirt/LensDirt03.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7a051dbda2d7bc447bee412427cd311e - Path: Packages/com.unity.postprocessing/PostProcessing/Textures/LensDirt/LensDirt03.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7a051dbda2d7bc447bee412427cd311e' -> (Import Result ID: '81b9eea7ea958dac0b06cf5098c7f7f7') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=49e8497a3d939c32c281843e908acd22 DependenciesID=dbd14403d71b51c3598cae853ea8ce7c StaticDependenciesID=d4bbf155c11d11e548cbaadbe40d24c4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 4.33 ms, found 6 plugins.
+Native extension for iOS target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.473 seconds
+Domain Reload Profiling: 1055ms
+	BeginReloadAssembly (240ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (261ms)
+		LoadAssemblies (267ms)
+		TypeCache.Refresh (5ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (474ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.32 ms, found 6 plugins.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1630 unused Assets / (2.0 MB). Loaded Objects now: 2364.
+Memory consumption went from 210.3 MB to 208.2 MB.
+Total: 6.424700 ms (FindLiveObjects: 0.268000 ms CreateObjectMapping: 0.080700 ms MarkObjects: 5.477500 ms  DeleteObjects: 0.449300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
